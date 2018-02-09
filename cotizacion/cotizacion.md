@@ -19,3 +19,6 @@ Se proveerá una propuesta que considere la tecnología más conveniente para lo
 Se definirán los aspectos técnicos necesarios en escena para la realización del montaje.
 ## Costos
 El servicio de asesoría tiene un costo de $300.000.- (brutos), calculados sobre la base de 20 horas de trabajo a un costo de $15.000.- la hora.
+<br><br>
+*Guillermo Montecinos,
+*Aarón Montoya-Moraga.
