@@ -21,5 +21,5 @@ Se definirán los aspectos técnicos necesarios en escena para la realización d
 El servicio de asesoría tiene un costo de $300.000.- (brutos), calculados sobre la base de 20 horas de trabajo a un costo de $15.000.- la hora.
 <br><br>
 Santiag, 9 de febrero de 2018.<br>
-*Guillermo Montecinos,*
-*Aarón Montoya-Moraga.*
+*Guillermo Montecinos, gamontec@uc.cl*<br>
+*Aarón Montoya-Moraga, montoyamoraga@gmail.com*
