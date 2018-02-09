@@ -14,7 +14,7 @@ La asesoría consistirá en una investigación de tecnologías a de *Realidad Au
 ### Tecnologías disponibles<br>
 Se entregará un compendio de bibliotecas *FLOSS* de realidad aumentada disponibles para cumplir los requisitos solicitados, así como de los entornos de programación que permitirán el desarrollo de la aplicación móvil.
 ### Propuesta de desarrollo
-Se proveerá una propuesta que considere la tecnología más conveniente para los fines indicados, explicitando mtedología de trabajo, resultados esperados y tiempo estimado de desarrollo. 
+Se proveerá una propuesta que considere la tecnología más conveniente para los fines indicados, explicitando metodología de trabajo, resultados esperados y tiempo estimado de desarrollo. 
 ### Propuesta de montaje
 Se definirán los aspectos técnicos necesarios en escena para la realización del montaje.
 ## Fechas
