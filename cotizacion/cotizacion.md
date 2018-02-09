@@ -14,9 +14,11 @@ La asesoría consistirá en una investigación de tecnologías a de *Realidad Au
 ### Tecnologías disponibles<br>
 Se entregará un compendio de bibliotecas *FLOSS* de realidad aumentada disponibles para cumplir los requisitos solicitados, así como de los entornos de programación que permitirán el desarrollo de la aplicación móvil.
 ### Propuesta de desarrollo
-Se proveerá una propuesta que considere la tecnología más conveniente para los fines indicados. 
+Se proveerá una propuesta que considere la tecnología más conveniente para los fines indicados, explicitando mtedología de trabajo, resultados esperados y tiempo estimado de desarrollo. 
 ### Propuesta de montaje
 Se definirán los aspectos técnicos necesarios en escena para la realización del montaje.
+## Fechas
+Los documentos originados de esta asesoría deberán ser entregados a Productora Atómica el día lunes 19 de febrero de 2018, por vía a acordar entre las partes.
 ## Costos
 El servicio de asesoría tiene un costo de $300.000.- (brutos), calculados sobre la base de 20 horas de trabajo a un costo de $15.000.- la hora.
 <br><br>
