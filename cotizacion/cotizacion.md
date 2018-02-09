@@ -18,7 +18,7 @@ Se proveerá una propuesta que considere la tecnología más conveniente para lo
 ### Propuesta de montaje
 Se definirán los aspectos técnicos necesarios en escena para la realización del montaje.
 ## Fechas
-Los documentos originados de esta asesoría deberán ser entregados a Productora Atómica el día lunes 19 de febrero de 2018, por vía a acordar entre las partes.
+Los documentos originados de esta asesoría ser entregarán a Productora Atómica en un plazo máximo de 10 días luego de que esta propuesta sea aprobada, por vía a acordar entre las partes.
 ## Costos
 El servicio de asesoría tiene un costo de $300.000.- (brutos), calculados sobre la base de 20 horas de trabajo a un costo de $15.000.- la hora.
 <br><br>
