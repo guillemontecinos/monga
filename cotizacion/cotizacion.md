@@ -10,7 +10,7 @@ Fecha cotización: 9 de febrero de 2018
 ## Objetivos
 Definir las actividades a realizarse durante la asesoría técnica prestada a Productora Atómica para el desarrollo del montaje interactivo Monga, en el área de tecnologías interactivas para la obra.
 ## Alcance
-La asesoría consistirá en una investigación de tecnologías a de *Realidad Aumentada* utilizar para el desarrollo de la aplicación móvil "No apagues el celular", que permitan cumplir las funciones explicitadas en la sinopsis de la obra. Luego de la investigación se entregará un informe que incluirá:
+La asesoría consistirá en una investigación de tecnologías a de *Realidad Aumentada* utilizar para el desarrollo de la aplicación móvil "No apague su celular", que permitan cumplir las funciones explicitadas en la sinopsis de la obra. Luego de la investigación se entregará un informe que incluirá:
 ### Tecnologías disponibles<br>
 Se entregará un compendio de bibliotecas *FLOSS* de realidad aumentada disponibles para cumplir los requisitos solicitados, así como de los entornos de programación que permitirán el desarrollo de la aplicación móvil.
 ### Propuesta de desarrollo
