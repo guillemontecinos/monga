@@ -7,9 +7,9 @@ Artículos de interés:<br>
 ### [A-frame](https://aframe.io/)
 Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaciones de VR en la web basada principalmente en three.js. Al ser apps web, se pueden correr en la mayoría de los celulares. Se puede itilizar para realizar aplicaciones de AR-web al incorporar la biblioteca AR.js
 
-TODO: Es compatible con las siguientes bibliotecas web.
+TODO: Es compatible con las siguientes bibliotecas web: d3.js (cuáles más?)
 ### AR.js
-Es una biblioteca de JavaScript que permite realizar aplicaciones de AR sobre HTML, que puede ser [incorporada a A-frame](https://aframe.io/blog/arjs/). En ese caso lo que AR.js es controlar la cámara del dispositivo de modo de dar el marco espacial para que A-frame renderice los modelos 3D.
+Es una biblioteca de JavaScript que permite realizar aplicaciones de AR sobre HTML, que puede ser [incorporada a A-frame](https://aframe.io/blog/arjs/). En ese caso lo que AR.js hace es controlar la cámara del dispositivo basándose en etiquetas físicas que son detectadas por la cámara, de modo de dar el marco espacial para que A-frame renderice los modelos 3D.
 
 ## Apple iOS
 
