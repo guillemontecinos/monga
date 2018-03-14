@@ -22,7 +22,7 @@ Google desarrolló la plataforma [AR Core](https://developers.google.com/ar/) pa
 
 AR Core es una plataforma potente y moderna, compatible con softwares para desarrollo de VR como Unity y Unreal. La limitación de AR Core es que requiere teléfonos móviles de última generación, como el Samsung Galaxy S7 (o superior), el Google Pixel (o superior), y otros especificados [aquí](https://developers.google.com/ar/discover/).
 
-### Web-based AR @ Android
+### Web-based AR for Android
 Para el desarrollo de aplicaciones AR web, Google ha desarrollado para Android - de manera no oficial aún - un navegador experimental llamado [WebARonARCore](https://github.com/google-ar/WebARonARCore). Al funcionar sobre AR Core de Google, este navegador exige los mismos requerimientos técnicos.
 
 # Resources for AR app development
