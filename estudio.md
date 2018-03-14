@@ -11,7 +11,7 @@ TODO: Es compatible con las siguientes bibliotecas web: d3.js (cuáles más?)
 ### AR.js
 Es una biblioteca de JavaScript que permite realizar aplicaciones de AR sobre HTML, que puede ser [incorporada a A-frame](https://aframe.io/blog/arjs/). En ese caso lo que AR.js hace es controlar la cámara del dispositivo basándose en etiquetas físicas que son detectadas por la cámara, de modo de dar el marco espacial para que A-frame renderice los modelos 3D.
 ### [three.ar.js](https://github.com/google-ar/three.ar.js)
-Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones AR web. Requiere la API WebVR de los navegadores WebARonARKit and WebARonARCore.
+Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones AR web. Requiere la [extensión](https://github.com/google-ar/three.ar.js/blob/master/webvr_ar_extension.md) de la API WebVR para smartphones, disponibles en los navegadores WebARonARKit and WebARonARCore.
 
 ## Apple iOS
 
