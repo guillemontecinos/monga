@@ -33,5 +33,8 @@ Para el desarrollo de aplicaciones AR web, Google ha desarrollado para Android -
 
 
 # Resources for AR app development
-[Web based VR talk](https://www.youtube.com/watch?v=9HAAbh6rq9Q)<br>
-[How is ARCore better than ARKit?](https://medium.com/super-ventures-blog/how-is-arcore-better-than-arkit-5223e6b3e79d)
+- [Web based VR talk](https://www.youtube.com/watch?v=9HAAbh6rq9Q)
+- [How is ARCore better than ARKit?](https://medium.com/super-ventures-blog/how-is-arcore-better-than-arkit-5223e6b3e79d)
+
+# Preguntas
+- Cómo transpilar desde ARCore a ARKit?
