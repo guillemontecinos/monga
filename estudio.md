@@ -28,9 +28,10 @@ AR Core es una plataforma potente y moderna, compatible con softwares para desar
 Para el desarrollo de aplicaciones AR web, Google ha desarrollado para Android - de manera no oficial aún - un navegador experimental llamado [WebARonARCore](https://github.com/google-ar/WebARonARCore). Al funcionar sobre AR Core de Google, este navegador exige los mismos requerimientos técnicos.
 
 ## Multiplataforma
-[Vuforia](https://www.vuforia.com/)
+- [Vuforia](https://www.vuforia.com/)
+- [Holokit](https://holokit.io/) y [Holokit SDK](https://github.com/holokit/holokitsdk)
+
 
 # Resources for AR app development
 [Web based VR talk](https://www.youtube.com/watch?v=9HAAbh6rq9Q)<br>
 [How is ARCore better than ARKit?](https://medium.com/super-ventures-blog/how-is-arcore-better-than-arkit-5223e6b3e79d)
-
