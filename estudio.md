@@ -5,9 +5,13 @@ Artículos de interés:<br>
 - [Web-Powered Augmented Reality: a Hands-On Tutorial](https://medium.com/@urish/web-powered-augmented-reality-a-hands-on-tutorial-9e6a882e323e)
 - [Web AR with smart plugs using A-Frame](https://medium.com/the-unitgb/web-ar-with-smart-plugs-using-a-frame-d9828a846bd0)
 ### [A-frame](https://aframe.io/)
-Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaciones de VR en la web basada principalmente en [three.js](https://threejs.org/). Es un entorno VR compatible con la mayoría de los [headsets](https://aframe.io/docs/0.8.0/introduction/) disponibles en el mercado, y puede ser utilizado para generar modelos 3D en aplicaciones de AR-web al incorporar la biblioteca [AR.js](https://aframe.io/blog/arjs/).
+Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaciones de VR en la web basada en [three.js](https://threejs.org/). Es un entorno VR compatible con la mayoría de los [headsets](https://aframe.io/docs/0.8.0/introduction/) disponibles en el mercado, y puede ser utilizado para generar modelos 3D en aplicaciones de AR-web al incorporar la biblioteca [AR.js](https://aframe.io/blog/arjs/).
 
-TODO: Es compatible con las siguientes bibliotecas web: d3.js (cuáles más?)
+Es compatible con las siguientes bibliotecas web (la lista es más larga y se puede encontrar [aquí](https://aframe.io/docs/0.8.0/introduction/faq.html#does-a-frame-support-x-library-or-framework)): 
+- [D3.js](https://d3js.org/)
+- [Preact](https://preactjs.com/)
+- [React](https://reactjs.org/)
+
 ### AR.js
 Es una biblioteca de JavaScript que permite realizar aplicaciones de AR sobre HTML, que puede ser [incorporada a A-frame](https://aframe.io/blog/arjs/). En ese caso lo que AR.js hace es controlar la cámara del dispositivo basándose en etiquetas físicas que son detectadas por la cámara, de modo de dar el marco espacial para que A-frame renderice los modelos 3D.
 ### [three.ar.js](https://github.com/google-ar/three.ar.js)
