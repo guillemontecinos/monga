@@ -17,8 +17,6 @@ Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones 
 
 [ARKit](https://developer.apple.com/arkit/)
 
-
-
 ## Google Android
 Google desarrolló la plataforma [AR Core](https://developers.google.com/ar/) para desarrollar aplicaciones móviles descargables de AR. La versin 1.0 fue lanzada a fines de febrero de 2018.
 
