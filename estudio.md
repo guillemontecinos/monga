@@ -31,10 +31,31 @@ Para el desarrollo de aplicaciones AR web, Google ha desarrollado para Android -
 - [Vuforia](https://www.vuforia.com/)
 - [Holokit](https://holokit.io/) y [Holokit SDK](https://github.com/holokit/holokitsdk)
 
-
 # Resources for AR app development
 - [Web based VR talk](https://www.youtube.com/watch?v=9HAAbh6rq9Q)
 - [How is ARCore better than ARKit?](https://medium.com/super-ventures-blog/how-is-arcore-better-than-arkit-5223e6b3e79d)
 
 # Preguntas
 - Cómo transpilar desde ARCore a ARKit?
+
+https://easyar.com/
+
+## Requerimientos tecnicos
+
+Wifi, distintos protocolos
+
+Celulares Android
+
+Celulares iPhone
+
+iOs, which one?
+
+Android, which one?
+
+# CUADRO COMPARATIVO DE LAS DISTINTAS APPROACHES
+
+precios, disponibilidades en el mercado, marcas, años
+
+resolucion, latencia, costos
+
+dependencias, costos mensuales, facilidad de instalacion
