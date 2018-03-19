@@ -24,7 +24,9 @@ Eficiencia en el uso de recursos?
 - No requiere navegadores WebARonARCore o WebARonARKit
 #### Desventajas
 - Requiere etiquetas para anclar el modelo al mundo real
-- Dependiendo de las características del hardware, no es totalmente estable en la localización del modelo en el espacio
+- No utiliza sensores espaciales del teléfono
+- Espacialización depende sólo de la cámara del equipo
+- Estabilidad en localización del modelo depende de la luminosidad del espacio
 ### [three.ar.js](https://github.com/google-ar/three.ar.js)
 Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones AR web. Requiere la [extensión](https://github.com/google-ar/three.ar.js/blob/master/webvr_ar_extension.md) de la API WebVR para smartphones, disponibles en los navegadores WebARonARKit and WebARonARCore.
 
