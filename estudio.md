@@ -12,8 +12,19 @@ Es compatible con las siguientes bibliotecas web (la lista es más larga y se pu
 - [Preact](https://preactjs.com/)
 - [React](https://reactjs.org/)
 
-### AR.js
-Es una biblioteca de JavaScript que permite realizar aplicaciones de AR sobre HTML, que puede ser [incorporada a A-frame](https://aframe.io/blog/arjs/). En ese caso lo que AR.js hace es controlar la cámara del dispositivo basándose en etiquetas físicas que son detectadas por la cámara, de modo de dar el marco espacial para que A-frame renderice los modelos 3D.
+### [AR.js](https://github.com/jeromeetienne/AR.js)
+Es una biblioteca de JavaScript que permite realizar aplicaciones de AR sobre HTML. Se puede conectar con [A-frame](https://aframe.io/blog/arjs/). En ese caso lo que AR.js hace es controlar la cámara del dispositivo basándose en etiquetas físicas que son detectadas por la cámara, de modo de dar el marco espacial para que A-frame renderice los modelos 3D.
+
+Está basada en three.js y [jsartoolkit5](https://github.com/artoolkit/jsartoolkit5) y pensada para correr aplicaciones AR-web desde cualquier teléfono móvil que tenga webgl y webrtc, incluidos en la versión de Google Chrome 64 o superior. Un ejemplo de esta biblioteca es el [siguiente](https://github.com/jeromeetienne/AR.js#try-it-on-mobile).
+
+Eficiencia en el uso de recursos?
+
+#### Ventajas
+- AR.js corre en la mayoría de los teléfonos móviles
+- No requiere navegadores WebARonARCore o WebARonARKit
+#### Desventajas
+- Requiere etiquetas para anclar el modelo al mundo real
+- Dependiendo de las características del hardware, no es totalmente estable en la localización del modelo en el espacio
 ### [three.ar.js](https://github.com/google-ar/three.ar.js)
 Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones AR web. Requiere la [extensión](https://github.com/google-ar/three.ar.js/blob/master/webvr_ar_extension.md) de la API WebVR para smartphones, disponibles en los navegadores WebARonARKit and WebARonARCore.
 
