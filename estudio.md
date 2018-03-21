@@ -92,9 +92,16 @@ dependencias, costos mensuales, facilidad de instalacion
 ## Referencias
 
 * [Apple iPhone SE specs](https://www.apple.com/iphone-se/specs/)
+* [Apple iPhone SE wiki](https://en.wikipedia.org/wiki/IPhone_SE)
 * [Apple iPhone 6s specs](https://www.apple.com/iphone-6s/specs/)
+* [Apple iPhone 6s wiki](https://en.wikipedia.org/wiki/IPhone_6S)
 * [Apple iPhone 7 specs](https://www.apple.com/iphone-7/specs/)
+* [Apple iPhone 7 wiki](https://en.wikipedia.org/wiki/IPhone_7)
 * [Apple iPhone 8 specs](https://www.apple.com/iphone-8/specs/)
+* [Apple iPhone 8 wiki](https://en.wikipedia.org/wiki/IPhone_8)
 * [Apple iPhone X specs](https://www.apple.com/iphone-x/specs/)
+* [Apple iPhone X wiki](https://en.wikipedia.org/wiki/IPhone_X)
+* [Google Pixel specs](https://store.google.com/us/product/pixel_phone_specs)
 * [Google Pixel wiki](https://en.wikipedia.org/wiki/Pixel_(smartphone))
 * [Google Pixel 2 specs](https://store.google.com/us/product/pixel_2_specs)
+* [Google Pixel 2 wiki](https://en.wikipedia.org/wiki/Pixel_2)
