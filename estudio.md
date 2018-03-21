@@ -75,9 +75,17 @@ https://easyar.com/
 |Samsung|Galaxy S9+    |2018 |839  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 
 
+## Cuadro comparativo de distintos frameworks de AR
+
+|Empresa|
+|-------|
+|Apple  |
+|Google |
+|Vuforia|
+
 # CUADRO COMPARATIVO DE LAS DISTINTAS APPROACHES
 
-resolucion, latencia, costos
+resolucion, latencia
 
 dependencias, costos mensuales, facilidad de instalacion
 
