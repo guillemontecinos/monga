@@ -7,7 +7,7 @@ Artículos de interés:<br>
 ### [A-frame](https://aframe.io/)
 Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaciones de VR en la web basada en [three.js](https://threejs.org/). Es un entorno VR compatible con la mayoría de los [headsets](https://aframe.io/docs/0.8.0/introduction/) disponibles en el mercado, y puede ser utilizado para generar modelos 3D en aplicaciones de AR-web al incorporar la biblioteca [AR.js](https://aframe.io/blog/arjs/).
 
-Es compatible con las siguientes bibliotecas web (la lista es más larga y se puede encontrar [aquí](https://aframe.io/docs/0.8.0/introduction/faq.html#does-a-frame-support-x-library-or-framework)): 
+Es compatible con las siguientes bibliotecas web (la lista es más larga y se puede encontrar [aquí](https://aframe.io/docs/0.8.0/introduction/faq.html#does-a-frame-support-x-library-or-framework)):
 - [D3.js](https://d3js.org/)
 - [Preact](https://preactjs.com/)
 - [React](https://reactjs.org/)
@@ -57,15 +57,14 @@ https://easyar.com/
 
 ## Requerimientos tecnicos
 
-Wifi, distintos protocolos
-
-Celulares Android
-
-Celulares iPhone
-
-iOs, which one?
-
-Android, which one?
+|Marca |Modelo   |OS          |WiFi              |
+|------|---------|------------|------------------|
+|Apple |iPhone SE|iOS 11.2.6  |802.11ac          |
+|Apple |iPhone 6s|iOS 11.2.6  |802.11ac with MIMO|
+|Apple |iPhone 7 |iOS 11.2.6  |802.11ac with MIMO|
+|Apple |iPhone 8 |iOS 11.2.6  |802.11ac with MIMO|
+|Apple |iPhone X |iOS 11.2.6  |802.11ac with MIMO|
+|Google|Pixel 2  |Android Oreo|802.11 a/b/g/n/ac |
 
 # CUADRO COMPARATIVO DE LAS DISTINTAS APPROACHES
 
@@ -74,3 +73,12 @@ precios, disponibilidades en el mercado, marcas, años
 resolucion, latencia, costos
 
 dependencias, costos mensuales, facilidad de instalacion
+
+## Referencias
+
+* [iPhone SE](https://www.apple.com/iphone-se/specs/)
+* [iPhone 6s](https://www.apple.com/iphone-6s/specs/)
+* [iPhone 7](https://www.apple.com/iphone-7/specs/)
+* [iPhone 8](https://www.apple.com/iphone-8/specs/)
+* [iPhone X](https://www.apple.com/iphone-x/specs/)
+* [Google Pixel 2](https://store.google.com/us/product/pixel_2_specs)
