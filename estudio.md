@@ -57,25 +57,22 @@ https://easyar.com/
 
 ## Requerimientos tecnicos
 
-|Marca |Modelo   |OS          |WiFi              |
-|------|---------|------------|------------------|
-|Apple |iPhone SE|iOS 11.2.6  |802.11ac          |
-|Apple |iPhone 6s|iOS 11.2.6  |802.11ac with MIMO|
-|Apple |iPhone 7 |iOS 11.2.6  |802.11ac with MIMO|
-|Apple |iPhone 8 |iOS 11.2.6  |802.11ac with MIMO|
-|Apple |iPhone X |iOS 11.2.6  |802.11ac with MIMO|
-|Google|Pixel    |Android Oreo|802.11 a/b/g/n/ac |
-|Google|Pixel 2  |Android Oreo|802.11 a/b/g/n/ac |
+|Marca  |Modelo        |OS                |WiFi              |
+|-------|--------------|------------------|------------------|
+|Apple  |iPhone SE     |iOS 11.2.6        |802.11ac          |
+|Apple  |iPhone 6s     |iOS 11.2.6        |802.11ac with MIMO|
+|Apple  |iPhone 7      |iOS 11.2.6        |802.11ac with MIMO|
+|Apple  |iPhone 8      |iOS 11.2.6        |802.11ac with MIMO|
+|Apple  |iPhone X      |iOS 11.2.6        |802.11ac with MIMO|
+|Google |Pixel         |Android Oreo 8.0  |802.11 a/b/g/n/ac |
+|Google |Pixel 2       |Android Oreo 8.0  |802.11 a/b/g/n/ac |
+|Samsung|Galaxy S7     |Android Nougat 7.0|802.11 a/b/g/n/ac |
+|Samsung|Galaxy S7 edge|Android Nougat 7.0|802.11 a/b/g/n/ac |
+|Samsung|Galaxy S8     |Android Oreo 8.0  |802.11 a/b/g/n/ac |
+|Samsung|Galaxy S8+    |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 
-|Asus   |Zenfone AR|Android Oreo|802.11 a/b/g/n/ac |
-|LG     |V30|Android Oreo|802.11 a/b/g/n/ac |
-|LG     |V30+|Android Oreo|802.11 a/b/g/n/ac |
-|OnePlus| 5|Android Oreo|802.11 a/b/g/n/ac |
-|Samsung|Galaxy S7|Android Oreo|802.11 a/b/g/n/ac |
-|Samsung|Galaxy S7 edge|Android Oreo|802.11 a/b/g/n/ac |
-|Samsung|Galaxy S8|Android Oreo|802.11 a/b/g/n/ac |
-|Samsung|Galaxy S8+|Android Oreo|802.11 a/b/g/n/ac |
-|Samsung|Galaxy S7|Android Oreo|802.11 a/b/g/n/ac |
+
+
 |Samsung|Galaxy Note 8|Android Oreo|802.11 a/b/g/n/ac |
 |Samsung|Galaxy S9|Android Oreo|802.11 a/b/g/n/ac |
 |Samsung|Galaxy S9+|Android Oreo|802.11 a/b/g/n/ac |
@@ -91,6 +88,12 @@ dependencias, costos mensuales, facilidad de instalacion
 
 ## Referencias
 
+## Tecnologías
+
+* [Google ARCore](https://developers.google.com/ar/discover/)
+
+### Teléfonos
+
 * [Apple iPhone SE specs](https://www.apple.com/iphone-se/specs/)
 * [Apple iPhone SE wiki](https://en.wikipedia.org/wiki/IPhone_SE)
 * [Apple iPhone 6s specs](https://www.apple.com/iphone-6s/specs/)
@@ -105,3 +108,9 @@ dependencias, costos mensuales, facilidad de instalacion
 * [Google Pixel wiki](https://en.wikipedia.org/wiki/Pixel_(smartphone))
 * [Google Pixel 2 specs](https://store.google.com/us/product/pixel_2_specs)
 * [Google Pixel 2 wiki](https://en.wikipedia.org/wiki/Pixel_2)
+* [Samsung Galaxy S7](http://www.samsung.com/global/galaxy/galaxy-s7/)
+* [Samsung Galaxy S7 specs](https://www.gsmarena.com/samsung_galaxy_s7-7821.php)
+* [Samsung Galaxy S7 wiki](https://en.wikipedia.org/wiki/Samsung_Galaxy_S7)
+* [Samsung Galaxy S8](http://www.samsung.com/global/galaxy/galaxy-s8/)
+* [Samsung Galaxy S8 specs](http://www.samsung.com/global/galaxy/galaxy-s8/specs/)
+* [Samsung Galaxy S8 wiki](https://en.wikipedia.org/wiki/Samsung_Galaxy_S8)

@@ -11,9 +11,9 @@ horas trabajadas:
 |dom 18 mar|  0.0|      1.5|
 |lun 19 mar|  0.0|      0.0|
 |mar 20 mar|  0.0|      0.0|
-|mie 21 mar|     |         |
+|mie 21 mar|  4.0|      0.0|
 |jue 22 mar|     |         |
 |vie 23 mar|     |         |
 |sab 24 mar|     |         |
 |dom 25 mar|     |         |
-|total     |  1.0|      4.5|
+|total     |  5.0|      4.5|
