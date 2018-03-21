@@ -74,18 +74,17 @@ https://easyar.com/
 |Samsung|Galaxy S8     |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 |Samsung|Galaxy S8+    |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 
-
-
-|Samsung|Galaxy Note 8|Android Oreo|802.11 a/b/g/n/ac |
-|Samsung|Galaxy S9|Android Oreo|802.11 a/b/g/n/ac |
-|Samsung|Galaxy S9+|Android Oreo|802.11 a/b/g/n/ac |
-
-
 # CUADRO COMPARATIVO DE LAS DISTINTAS APPROACHES
+
+|Empresa|
+|-------|
+|Apple  |
+|Google |
+|Vuforia|
 
 precios, disponibilidades en el mercado, marcas, años
 
-resolucion, latencia, costos
+resolucion, latencia
 
 dependencias, costos mensuales, facilidad de instalacion
 
