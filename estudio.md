@@ -55,32 +55,27 @@ Para el desarrollo de aplicaciones AR web, Google ha desarrollado para Android -
 
 https://easyar.com/
 
-## Requerimientos tecnicos
+## Cuadro comparativo de teléfonos
 
-|Marca  |Modelo        |OS                |WiFi              |
-|-------|--------------|------------------|------------------|
-|Apple  |iPhone SE     |iOS 11.2.6        |802.11ac          |
-|Apple  |iPhone 6s     |iOS 11.2.6        |802.11ac with MIMO|
-|Apple  |iPhone 7      |iOS 11.2.6        |802.11ac with MIMO|
-|Apple  |iPhone 8      |iOS 11.2.6        |802.11ac with MIMO|
-|Apple  |iPhone X      |iOS 11.2.6        |802.11ac with MIMO|
-|Google |Pixel         |Android Oreo 8.0  |802.11 a/b/g/n/ac |
-|Google |Pixel 2       |Android Oreo 8.0  |802.11 a/b/g/n/ac |
-|Samsung|Galaxy S7     |Android Nougat 7.0|802.11 a/b/g/n/ac |
-|Samsung|Galaxy S7 edge|Android Nougat 7.0|802.11 a/b/g/n/ac |
-|Samsung|Galaxy S8     |Android Oreo 8.0  |802.11 a/b/g/n/ac |
-|Samsung|Galaxy S8+    |Android Oreo 8.0  |802.11 a/b/g/n/ac |
-
-
-
-|Samsung|Galaxy Note 8|Android Oreo|802.11 a/b/g/n/ac |
-|Samsung|Galaxy S9|Android Oreo|802.11 a/b/g/n/ac |
-|Samsung|Galaxy S9+|Android Oreo|802.11 a/b/g/n/ac |
+|Marca  |Modelo        |Fecha|$ USD|OS                |WiFi              |
+|-------|--------------|-----|-----|------------------|------------------|
+|Apple  |iPhone 6s     |2015 |449  |iOS 11.2.6        |802.11ac with MIMO|
+|Apple  |iPhone SE     |2016 |349  |iOS 11.2.6        |802.11ac          |
+|Apple  |iPhone 7      |2016 |549  |iOS 11.2.6        |802.11ac with MIMO|
+|Apple  |iPhone 8      |2017 |699  |iOS 11.2.6        |802.11ac with MIMO|
+|Apple  |iPhone X      |2017 |999  |iOS 11.2.6        |802.11ac with MIMO|
+|Google |Pixel         |2016 |549  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
+|Google |Pixel 2       |2017 |649  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
+|Samsung|Galaxy S7     |2016 |469  |Android Nougat 7.0|802.11 a/b/g/n/ac |
+|Samsung|Galaxy S7 edge|2016 |569  |Android Nougat 7.0|802.11 a/b/g/n/ac |
+|Samsung|Galaxy S8     |2017 |599  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
+|Samsung|Galaxy S8+    |2017 |689  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
+|Samsung|Galaxy Note 8 |2017 |950  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
+|Samsung|Galaxy S9     |2018 |719  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
+|Samsung|Galaxy S9+    |2018 |839  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 
 
 # CUADRO COMPARATIVO DE LAS DISTINTAS APPROACHES
-
-precios, disponibilidades en el mercado, marcas, años
 
 resolucion, latencia, costos
 
@@ -114,3 +109,6 @@ dependencias, costos mensuales, facilidad de instalacion
 * [Samsung Galaxy S8](http://www.samsung.com/global/galaxy/galaxy-s8/)
 * [Samsung Galaxy S8 specs](http://www.samsung.com/global/galaxy/galaxy-s8/specs/)
 * [Samsung Galaxy S8 wiki](https://en.wikipedia.org/wiki/Samsung_Galaxy_S8)
+* [Samsung Galaxy Note 8](https://www.samsung.com/global/galaxy/galaxy-note8/)
+* [Samsung Galaxy Note 8 specs](https://www.samsung.com/global/galaxy/galaxy-note8/specs/)
+* [Samsung Galaxy Note 8 wiki](https://en.wikipedia.org/wiki/Samsung_Galaxy_Note_8)
