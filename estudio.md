@@ -81,11 +81,11 @@ https://easyar.com/
 
 # Cuadro comparativo
 
-|Empresa|
-|-------|
-|Apple  |
-|Google |
-|Vuforia|
+|Plataforma         |Empresa  |
+|-------------------|---------|
+|AR Kit             |Apple    |
+|AR Core            |Google   |
+|Vuforia            |PTC Inc. |
 
 precios, disponibilidades en el mercado, marcas, años
 
