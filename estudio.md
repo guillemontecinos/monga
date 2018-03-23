@@ -78,7 +78,13 @@ https://easyar.com/
 |Samsung|Galaxy S9+    |2018 |839  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 
 
-# CUADRO COMPARATIVO DE LAS DISTINTAS APPROACHES
+# Cuadro comparativo
+
+|Empresa|
+|-------|
+|Apple  |
+|Google |
+|Vuforia|
 
 precios, disponibilidades en el mercado, marcas, años
 
