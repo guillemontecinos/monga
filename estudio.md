@@ -37,7 +37,7 @@ Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones 
 ## Google Android
 Google desarrolló la plataforma [AR Core](https://developers.google.com/ar/) para desarrollar aplicaciones móviles descargables de AR. La versin 1.0 fue lanzada a fines de febrero de 2018.
 
-AR Core es una plataforma potente y moderna, compatible con softwares para desarrollo de VR como Unity y Unreal. La limitación de AR Core es que requiere teléfonos móviles de última generación, como el Samsung Galaxy S7 (o superior), el Google Pixel (o superior), y otros especificados [aquí](https://developers.google.com/ar/discover/).
+AR Core es una plataforma potente y moderna, compatible con softwares para desarrollo de VR como Unity y Unreal. Requiere un OS Android 7.0 o superior. La limitación de AR Core es que requiere teléfonos móviles de última generación, como el Samsung Galaxy S7 (o superior), el Google Pixel (o superior), y otros especificados [aquí](https://developers.google.com/ar/discover/).
 
 ### Web-based AR for Android
 Para el desarrollo de aplicaciones AR web, Google ha desarrollado para Android - de manera no oficial aún - un navegador experimental llamado [WebARonARCore](https://github.com/google-ar/WebARonARCore). Al funcionar sobre AR Core de Google, este navegador exige los mismos requerimientos técnicos.
