@@ -1,6 +1,9 @@
-# Estudio de realidad aumentada
+# Informe Técnico: Estado del Arte de la Realidad Aumentada (AR) en teléfonos móviles para implementación de aplicación AR en montaje teatral
 
 ## Introducción
+El siguiente informe técnico aborda el estado del arte de las tecnologías asociadas a la Realidad Aumentada (AR, por sus siglas en inglés), la que ententemos como un continuo que abarca desde un entorno real hasta un entorno virtual puro (Paul Milgram et al., 1994). La AR permite la incorporación de información digital - imágenes, datos, modelos 3D, sonido, entre otros - a un entorno real, mediante el reconocimiento espacial de patrones realizado por un software.
+
+A continuación se enumerarán y describirán las teconologías y estrategias más utilizadas actualmente para desarrollar aplicaciones de AR, poniendo como objetivo el desarrollo de una app para el montaje teatral "Monga". Para ello se revisarán qué teléfonos móviles son requeridos para ejecutar las tecnologías mencionadas, y qué soporte técnico se requiere para implementar la app en escena.
 
 ## Web-based AR
 
@@ -112,6 +115,7 @@ dependencias, costos mensuales, facilidad de instalacion
 * [Google ARCore](https://developers.google.com/ar/discover/)
 
 ### Artículos de Interés
+* [Realidad Aumentada, Wikipedia](https://es.wikipedia.org/wiki/Realidad_aumentada)
 * [Web-Powered Augmented Reality: a Hands-On Tutorial](https://medium.com/@urish/web-powered-augmented-reality-a-hands-on-tutorial-9e6a882e323e)
 * [Web AR with smart plugs using A-Frame](https://medium.com/the-unitgb/web-ar-with-smart-plugs-using-a-frame-d9828a846bd0)
 * [How to create Augmented Reality posters with Unity & Vuforia](https://medium.com/@devdevcharlie/how-to-create-augmented-reality-posters-with-unity-vuforia-ec80a82e6d51)
