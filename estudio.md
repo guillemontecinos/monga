@@ -1,9 +1,7 @@
 # Estudio de realidad aumentada
 
 ## Web-based AR
-Artículos de interés:<br>
-- [Web-Powered Augmented Reality: a Hands-On Tutorial](https://medium.com/@urish/web-powered-augmented-reality-a-hands-on-tutorial-9e6a882e323e)
-- [Web AR with smart plugs using A-Frame](https://medium.com/the-unitgb/web-ar-with-smart-plugs-using-a-frame-d9828a846bd0)
+
 ### [A-frame](https://aframe.io/)
 Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaciones de VR en la web basada en [three.js](https://threejs.org/). Es un entorno VR compatible con la mayoría de los [headsets](https://aframe.io/docs/0.8.0/introduction/) disponibles en el mercado, y puede ser utilizado para generar modelos 3D en aplicaciones de AR-web al incorporar la biblioteca [AR.js](https://aframe.io/blog/arjs/).
 
@@ -115,7 +113,11 @@ dependencias, costos mensuales, facilidad de instalacion
 
 * [Google ARCore](https://developers.google.com/ar/discover/)
 
-### Teléfonos
+## Web AR
+- [Web-Powered Augmented Reality: a Hands-On Tutorial](https://medium.com/@urish/web-powered-augmented-reality-a-hands-on-tutorial-9e6a882e323e)
+- [Web AR with smart plugs using A-Frame](https://medium.com/the-unitgb/web-ar-with-smart-plugs-using-a-frame-d9828a846bd0)
+
+## Teléfonos
 
 * [Apple iPhone SE specs](https://www.apple.com/iphone-se/specs/)
 * [Apple iPhone SE wiki](https://en.wikipedia.org/wiki/IPhone_SE)
@@ -137,3 +139,4 @@ dependencias, costos mensuales, facilidad de instalacion
 * [Samsung Galaxy S8](http://www.samsung.com/global/galaxy/galaxy-s8/)
 * [Samsung Galaxy S8 specs](http://www.samsung.com/global/galaxy/galaxy-s8/specs/)
 * [Samsung Galaxy S8 wiki](https://en.wikipedia.org/wiki/Samsung_Galaxy_S8)
+
