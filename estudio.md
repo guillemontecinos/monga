@@ -25,13 +25,15 @@ Está basada en three.js y [jsartoolkit5](https://github.com/artoolkit/jsartoolk
 Eficiencia en el uso de recursos?
 
 #### Ventajas
-- AR.js corre en la mayoría de los teléfonos móviles
-- No requiere navegadores WebARonARCore o WebARonARKit
+* AR.js corre en la mayoría de los teléfonos móviles
+* No requiere navegadores WebARonARCore o WebARonARKit
+
 #### Desventajas
-- Requiere etiquetas para anclar el modelo al mundo real
-- No utiliza sensores espaciales del teléfono
-- Espacialización depende sólo de la cámara del equipo
-- Estabilidad en localización del modelo depende de la luminosidad del espacio
+* Requiere etiquetas para anclar el modelo al mundo real
+* No utiliza sensores espaciales del teléfono
+* Espacialización depende sólo de la cámara del equipo
+* Estabilidad en localización del modelo depende de la luminosidad del espacio
+
 ### [three.ar.js](https://github.com/google-ar/three.ar.js)
 Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones AR web. Requiere la [extensión](https://github.com/google-ar/three.ar.js/blob/master/webvr_ar_extension.md) de la API WebVR para smartphones, disponibles en los navegadores WebARonARKit and WebARonARCore.
 
