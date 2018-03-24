@@ -87,8 +87,8 @@ https://easyar.com/
 # Cuadro comparativo SDK
 |Plataforma         |Empresa  |$ USD|Android|iOS    |Windows|
 |-------------------|---------|-----|-------|-------|-------|
-|AR Kit             |Apple    |     |N/A    |11+    |N/A    |
-|AR Core            |Google   |     |7.0+   |N/A    |N/A    |
+|AR Kit             |Apple    |N/A  |N/A    |11+    |N/A    |
+|AR Core            |Google   |N/A  |7.0+   |N/A    |N/A    |
 |Vuforia            |PTC      |499  |4.4+   |9+     |10     |
 
 Fuentes:
