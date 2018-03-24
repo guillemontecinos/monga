@@ -94,11 +94,11 @@ https://easyar.com/
 
 
 # Cuadro comparativo SDK
-|Plataforma         |Empresa  |Lanzamiento|$ USD|Android|iOS    |Windows|
-|-------------------|---------|-----------|-----|-------|-------|-------|
-|AR Kit             |Apple    |2017       |N/A  |N/A    |11+    |N/A    |
-|AR Core            |Google   |2017       |N/A  |7.0+   |N/A    |N/A    |
-|Vuforia            |PTC      |           |499  |4.4+   |9+     |10     |
+|Plataforma         |Empresa  |Año  |$ USD|Android|iOS    |Windows|
+|-------------------|---------|-----|-----|-------|-------|-------|
+|AR Kit             |Apple    |2017 |N/A  |N/A    |11+    |N/A    |
+|AR Core            |Google   |2017 |N/A  |7.0+   |N/A    |N/A    |
+|Vuforia            |PTC      |     |499  |4.4+   |9+     |10     |
 
 Fuentes:
 - [Versión OS Android para AR Core](https://developers.google.com/ar/discover/)
@@ -106,7 +106,7 @@ Fuentes:
 - [Versiones iOS, Android y Windows compatibles con Vuforia](https://library.vuforia.com/articles/Solution/Vuforia-Supported-Versions.html)
 - [Licencia Vuforia](https://developer.vuforia.com/vui/pricing)
 
-precios, disponibilidades en el mercado, años
+precios, disponibilidades en el mercado,
 
 resolucion, latencia,
 
