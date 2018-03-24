@@ -1,5 +1,7 @@
 # Estudio de realidad aumentada
 
+## Introducción
+
 ## Web-based AR
 
 ### [A-frame](https://aframe.io/)
@@ -103,19 +105,19 @@ resolucion, latencia,
 
 dependencias, costos mensuales, facilidad de instalacion
 
-# Referencias
+## Referencias
 
-## Tecnologías
+### Tecnologías
 
 * [Google ARCore](https://developers.google.com/ar/discover/)
 
-## Artículos de Interés
+### Artículos de Interés
 * [Web-Powered Augmented Reality: a Hands-On Tutorial](https://medium.com/@urish/web-powered-augmented-reality-a-hands-on-tutorial-9e6a882e323e)
 * [Web AR with smart plugs using A-Frame](https://medium.com/the-unitgb/web-ar-with-smart-plugs-using-a-frame-d9828a846bd0)
 * [How to create Augmented Reality posters with Unity & Vuforia](https://medium.com/@devdevcharlie/how-to-create-augmented-reality-posters-with-unity-vuforia-ec80a82e6d51)
 * [How is ARCore better than ARKit?](https://medium.com/super-ventures-blog/how-is-arcore-better-than-arkit-5223e6b3e79d)
 
-## Teléfonos
+### Teléfonos
 
 * [Apple iPhone SE specs](https://www.apple.com/iphone-se/specs/)
 * [Apple iPhone SE wiki](https://en.wikipedia.org/wiki/IPhone_SE)
