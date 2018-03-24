@@ -95,7 +95,7 @@ https://easyar.com/
 |Plataforma         |Empresa  |$ USD|Android|iOS    |Windows|
 |-------------------|---------|-----|-------|-------|-------|
 |AR Kit             |Apple    |     |N/A    |       |N/A    |
-|AR Core            |Google   |     |7.0+   |       |N/A    |
+|AR Core            |Google   |     |7.0+   |N/A    |N/A    |
 |Vuforia            |PTC Inc. |499  |4.4+   |9+     |10     |
 
 Fuentes:
