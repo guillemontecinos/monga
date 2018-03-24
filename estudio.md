@@ -92,12 +92,15 @@ https://easyar.com/
 
 
 # Cuadro comparativo
+|                                   |Versiones compatibles  |
+|Plataforma         |Empresa  |$ USD|Android|iOS    |Windows|
+|-------------------|---------|-----|-----------------------|
+|AR Kit             |Apple    |     |N/A    |       |N/A    |
+|AR Core            |Google   |     |7.0+   |       |N/A    |
+|Vuforia            |PTC Inc. |499  |4.4+   |9+     |10     |
 
-|Plataforma         |Empresa  |$ USD|
-|-------------------|---------|-----|
-|AR Kit             |Apple    |     |
-|AR Core            |Google   |     |
-|Vuforia            |PTC Inc. |499  |
+Fuentes:
+- [Versión AR Core Android](https://developers.google.com/ar/discover/)
 
 precios, disponibilidades en el mercado, marcas, años
 
