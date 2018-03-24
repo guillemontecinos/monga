@@ -46,6 +46,15 @@ Para el desarrollo de aplicaciones AR web, Google ha desarrollado para Android -
 ### [Vuforia](https://www.vuforia.com/)
 Es la plataforma de desarrollo de experiencias AR más utilizada. Licencia especial gratuita para desarrolladores que trabajan con [Unity](https://unity3d.com/). Licencia estándar de Vuforia tiene un costo de $499.00.
 
+#### Requerimientos dispositivo móvil
+|OS     |Versión|
+|-------|-------|
+|Android|4.4+   |
+|iOS    |9+     |
+|Windows|10     |
+Fuente: [Vuforia Supported Versions](https://library.vuforia.com/articles/Solution/Vuforia-Supported-Versions.html)
+
+
 
 ### [Holokit](https://holokit.io/)
 Es una plataforma open source de realidad mixta (MR), que permite generar experiencias immersivas utilizando el teléfono móvil. La realidad mixta es una variante que intenta mezclar los mejores atributos de VR y AR, generalmente creando experiencias a mediante el uso de visores VR en el que se puede ver el mundo real (mostrado mediante una cámara) sobre el cual se montan modelos de VR.
