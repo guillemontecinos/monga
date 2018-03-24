@@ -5,7 +5,7 @@
 ## Introducción
 El siguiente informe técnico aborda el estado del arte de las tecnologías asociadas a la Realidad Aumentada (AR, por sus siglas en inglés), la que ententemos como un continuo que abarca desde un entorno real hasta un entorno virtual puro (Paul Milgram et al., 1994). La AR permite la incorporación de información digital - imágenes, datos, modelos 3D, sonido, entre otros - a un entorno real, mediante el reconocimiento espacial de patrones realizado por un software.
 
-A continuación se enumerarán y describirán las teconologías y estrategias más utilizadas actualmente para desarrollar aplicaciones de AR, poniendo como objetivo el desarrollo de una app para el montaje teatral "Monga". Para ello se revisarán qué teléfonos móviles son requeridos para ejecutar las tecnologías mencionadas, y qué soporte técnico se requiere para implementar la app en escena.
+A continuación se enumeran y describen las tecnologías y estrategias más utilizadas actualmente para desarrollar aplicaciones de AR, poniendo como objetivo el desarrollo de una app para el montaje teatral "Monga". Para ello se revisarán qué teléfonos móviles son requeridos para ejecutar las tecnologías mencionadas, y qué soporte técnico se requiere para implementar la app en escena.
 
 ## Web-based AR
 
@@ -39,9 +39,9 @@ Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones 
 En junio de 2017 Apple lanzó [ARKit](https://developer.apple.com/arkit/), un entorno de programación para desarrollar aplicaciones de AR en iOS. ArKit es compatible con iOS 11 o superior y ya se encuentra disponible en su versión 1.5 que es compatible con iOS 11.3 beta.
 
 ## Google Android
-Google desarrolló la plataforma [AR Core](https://developers.google.com/ar/) para desarrollar aplicaciones móviles descargables de AR. La versin 1.0 fue lanzada a fines de febrero de 2018.
+Google desarrolló la plataforma [AR Core](https://developers.google.com/ar/) para desarrollar aplicaciones móviles descargables de AR. La versión 1.0 fue lanzada a fines de febrero de 2018.
 
-AR Core es una plataforma potente y moderna, compatible con softwares para desarrollo de VR como Unity y Unreal. Requiere un OS Android 7.0 o superior. La limitación de AR Core es que requiere teléfonos móviles de última generación, como el Samsung Galaxy S7 (o superior), el Google Pixel (o superior), y otros especificados [aquí](https://developers.google.com/ar/discover/).
+AR Core es una plataforma potente y moderna, compatible con softwares para desarrollo de VR como Unity y Unreal. Requiere un OS Android 7.0 o superior. La limitación de ARCore es que requiere teléfonos móviles de última generación, como el Samsung Galaxy S7 (o superior), el Google Pixel (o superior), y otros especificados [aquí](https://developers.google.com/ar/discover/).
 
 ### Web-based AR for Android
 Para el desarrollo de aplicaciones AR web, Google ha desarrollado para Android - de manera no oficial aún - un navegador experimental llamado [WebARonARCore](https://github.com/google-ar/WebARonARCore). Al funcionar sobre AR Core de Google, este navegador exige los mismos requerimientos técnicos.
@@ -62,7 +62,7 @@ Fuente: [Vuforia Supported Versions](https://library.vuforia.com/articles/Soluti
 
 
 ### [Holokit](https://holokit.io/)
-Es una plataforma open source de realidad mixta (MR), que permite generar experiencias immersivas utilizando el teléfono móvil. La realidad mixta es una variante que intenta mezclar los mejores atributos de VR y AR, generalmente creando experiencias a mediante el uso de visores VR en el que se puede ver el mundo real (mostrado mediante una cámara) sobre el cual se montan modelos de VR.
+Es una plataforma open source de realidad mixta (MR), que permite generar experiencias inmersivas utilizando el teléfono móvil. La realidad mixta es una variante que intenta mezclar los mejores atributos de VR y AR, generalmente creando experiencias a mediante el uso de visores VR en el que se puede ver el mundo real (mostrado mediante una cámara) sobre el cual se montan modelos de VR.
 
 Holokit consiste en un kit de visores de cartón en el que se monta un teléfono móvil, y un software de desarrollo basado en entornos de AR. Es compatible con ARKit y ARCore, por lo que tiene las mismas limitaciones de costo que dichas plataformas.
 
