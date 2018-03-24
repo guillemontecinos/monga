@@ -103,9 +103,9 @@ Fuentes:
 - [Versiones iOS, Android y Windows compatibles con Vuforia](https://library.vuforia.com/articles/Solution/Vuforia-Supported-Versions.html)
 - [Licencia Vuforia](https://developer.vuforia.com/vui/pricing)
 
-precios, disponibilidades en el mercado, marcas, años
+precios, disponibilidades en el mercado, años
 
-resolucion, latencia, costos
+resolucion, latencia,
 
 dependencias, costos mensuales, facilidad de instalacion
 
