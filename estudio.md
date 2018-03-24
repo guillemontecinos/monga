@@ -1,4 +1,6 @@
 # Informe Técnico: Estado del Arte de la Realidad Aumentada (AR) en teléfonos móviles para implementación de aplicación AR en montaje teatral
+*Por Aarón Montoya y Guillermo Montecinos*<br>
+*27 de abril de 2018*
 
 ## Introducción
 El siguiente informe técnico aborda el estado del arte de las tecnologías asociadas a la Realidad Aumentada (AR, por sus siglas en inglés), la que ententemos como un continuo que abarca desde un entorno real hasta un entorno virtual puro (Paul Milgram et al., 1994). La AR permite la incorporación de información digital - imágenes, datos, modelos 3D, sonido, entre otros - a un entorno real, mediante el reconocimiento espacial de patrones realizado por un software.
