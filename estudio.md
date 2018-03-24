@@ -92,7 +92,6 @@ https://easyar.com/
 
 
 # Cuadro comparativo
-|                                   |Versiones compatibles  |
 |Plataforma         |Empresa  |$ USD|Android|iOS    |Windows|
 |-------------------|---------|-----|-------|-------|-------|
 |AR Kit             |Apple    |     |N/A    |       |N/A    |
