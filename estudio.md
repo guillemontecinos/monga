@@ -31,8 +31,7 @@ Eficiencia en el uso de recursos?
 Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones AR web. Requiere la [extensión](https://github.com/google-ar/three.ar.js/blob/master/webvr_ar_extension.md) de la API WebVR para smartphones, disponibles en los navegadores WebARonARKit and WebARonARCore.
 
 ## Apple iOS
-
-[ARKit](https://developer.apple.com/arkit/)
+En junio de 2017 Apple lanzó [ARKit](https://developer.apple.com/arkit/), un entorno de programación para desarrollar aplicaciones de AR en iOS. ArKit es compatible con iOS 11 o superior y ya se encuentra disponible en su versión 1.5 que es compatible con iOS 11.3 beta.
 
 ## Google Android
 Google desarrolló la plataforma [AR Core](https://developers.google.com/ar/) para desarrollar aplicaciones móviles descargables de AR. La versin 1.0 fue lanzada a fines de febrero de 2018.
@@ -91,16 +90,18 @@ https://easyar.com/
 |Samsung|Galaxy S9+    |2018 |839  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 
 
-# Cuadro comparativo
+# Cuadro comparativo SDK
 |Plataforma         |Empresa  |$ USD|Android|iOS    |Windows|
 |-------------------|---------|-----|-------|-------|-------|
 |AR Kit             |Apple    |     |N/A    |11+    |N/A    |
 |AR Core            |Google   |     |7.0+   |N/A    |N/A    |
-|Vuforia            |PTC Inc. |499  |4.4+   |9+     |10     |
+|Vuforia            |PTC      |499  |4.4+   |9+     |10     |
 
 Fuentes:
 - [Versión OS Android para AR Core](https://developers.google.com/ar/discover/)
 - [Versión iOS para AR Kit](https://developer.apple.com/arkit/)
+- [Versiones iOS, Android y Windows compatibles con Vuforia](https://library.vuforia.com/articles/Solution/Vuforia-Supported-Versions.html)
+- [Licencia Vuforia](https://developer.vuforia.com/vui/pricing)
 
 precios, disponibilidades en el mercado, marcas, años
 
