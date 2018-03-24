@@ -59,10 +59,6 @@ Es una plataforma open source de realidad mixta (MR), que permite generar experi
 
 Holokit consiste en un kit de visores de cartón en el que se monta un teléfono móvil, y un software de desarrollo basado en entornos de AR. Es compatible con ARKit y ARCore, por lo que tiene las mismas limitaciones de costo que dichas plataformas.
 
-# Resources for AR app development
-- [Web based VR talk](https://www.youtube.com/watch?v=9HAAbh6rq9Q)
-- [How is ARCore better than ARKit?](https://medium.com/super-ventures-blog/how-is-arcore-better-than-arkit-5223e6b3e79d)
-
 # Preguntas
 - Cómo transpilar desde ARCore a ARKit?
 
@@ -107,15 +103,17 @@ resolucion, latencia,
 
 dependencias, costos mensuales, facilidad de instalacion
 
-## Referencias
+# Referencias
 
 ## Tecnologías
 
 * [Google ARCore](https://developers.google.com/ar/discover/)
 
-## Web AR
-- [Web-Powered Augmented Reality: a Hands-On Tutorial](https://medium.com/@urish/web-powered-augmented-reality-a-hands-on-tutorial-9e6a882e323e)
-- [Web AR with smart plugs using A-Frame](https://medium.com/the-unitgb/web-ar-with-smart-plugs-using-a-frame-d9828a846bd0)
+## Artículos de Interés
+* [Web-Powered Augmented Reality: a Hands-On Tutorial](https://medium.com/@urish/web-powered-augmented-reality-a-hands-on-tutorial-9e6a882e323e)
+* [Web AR with smart plugs using A-Frame](https://medium.com/the-unitgb/web-ar-with-smart-plugs-using-a-frame-d9828a846bd0)
+* [How to create Augmented Reality posters with Unity & Vuforia](https://medium.com/@devdevcharlie/how-to-create-augmented-reality-posters-with-unity-vuforia-ec80a82e6d51)
+* [How is ARCore better than ARKit?](https://medium.com/super-ventures-blog/how-is-arcore-better-than-arkit-5223e6b3e79d)
 
 ## Teléfonos
 
