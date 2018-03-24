@@ -52,6 +52,7 @@ Es la plataforma de desarrollo de experiencias AR más utilizada. Licencia espec
 |Android|4.4+   |
 |iOS    |9+     |
 |Windows|10     |
+
 Fuente: [Vuforia Supported Versions](https://library.vuforia.com/articles/Solution/Vuforia-Supported-Versions.html)
 
 
