@@ -18,7 +18,7 @@ La calidad de la experiencia generada depende intensamente de la tecnología ele
 Un SDK (Kit de Desarrollo de Software, en inglés *Software Development Kit*) es una plataforma que permite el desarrollo de software en un entorno particular, y que tiene una serie de complementos orientados a ciertas funciones específicas. Durante el año 2017 Apple y Google lanzaron kits de desarrollo de aplicaciones de AR en los sistemas operativos iOS y Android, respectivamente. Con anterioridad a esto Vuforia, creado por la compañía Qualcomm y en 2015 adquirido por PTC, se ha posicionado como la plataforma de desarrollo de aplicaicones AR con más impacto en el mercado.
 
 #### Google Android
-Google desarrolló la plataforma [AR Core](https://developers.google.com/ar/) para desarrollar aplicaciones móviles descargables de AR. La versión 1.0 fue lanzada a fines de febrero de 2018.
+En 2017 Google lanzó la plataforma [AR Core](https://developers.google.com/ar/), un SDK para desarrollar aplicaciones móviles de AR basado en la experiencia del proyecto [Tango](https://es.wikipedia.org/wiki/Project_Tango), plataforma AR experimental creada por la compañía en 2015. La versión 1.0 fue lanzada a fines de febrero de 2018.
 
 AR Core es una plataforma potente y moderna, compatible con softwares para desarrollo de VR como Unity y Unreal. Requiere un OS Android 7.0 o superior. La limitación de ARCore es que requiere teléfonos móviles de última generación, como el Samsung Galaxy S7 (o superior), el Google Pixel (o superior), y otros especificados [aquí](https://developers.google.com/ar/discover/).
 
