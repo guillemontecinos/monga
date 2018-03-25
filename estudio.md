@@ -15,6 +15,7 @@ Actualmente existen dos métodos para realizar odometría con un dispositivo mó
 La calidad de la experiencia generada depende intensamente de la tecnología elegida, ya que una app basada en VIO al contar con mayor información espacial puede tener muchos mejores resultados con un costo mayor de recursos de procesamiento, mientras que una app basada en etiquetas puede lograr resultados menos complejos con una exigencia de procesamiento menor. Las aplicaciones AR pueden ser montadas de dos formas distintas en teléfonos móviles: por un lado se pueden desarrollar localmente en un kit de desarrollo para luego ser publicadas en la *App Store*, mientras que por otro ladose pueden desarrollar en un entorno web que para ser ejecutadas en el navegador. Las características y requerimientos de cada una serán descritas a continuación.
 
 ### SDKs para desarrollo de apps AR descargables
+Un SKD (*Software Development Kit*) es un Kit de Desarrollo de Software.
 
 #### Google Android
 Google desarrolló la plataforma [AR Core](https://developers.google.com/ar/) para desarrollar aplicaciones móviles descargables de AR. La versión 1.0 fue lanzada a fines de febrero de 2018.
