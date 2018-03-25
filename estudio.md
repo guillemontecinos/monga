@@ -10,6 +10,11 @@ El objetivo de este estudio es describir el panorama de la AR, caracterizar las 
 ## Realidad Aumentada
 Hay dos formas desde donde se puede abordar la AR en teléfonos móviles, una es el desarrollo de aplicaciones descargables que corran en el dispositivo, y la otra es el desarrollo de aplicaciones web que corran en un navegador. Las características y requerimientos de cada una serán descritas a continuación.
 
+La generación de experiencias AR en dispositivos móviles consiste en el despliegue de información, datos o modelos 3D virtuales en un entorno real. Para que el despliegue de esta información sea coherente con el entorno, los sistemas de AR requieren un análisis del espacio de modo de detectar planos, profundidad, bordes y otros atributos que entreguen información espacial, y el movimiento del equipo respecto de este espacio. Esto se llama odometría y corresponde al análisis de la trayectoria de puntos en el espacio.
+
+Actualmente existen dos métodos para realizar odometría con un dispositivo móvil orientada a AR: la primera consiste en el uso de referencias, particularmente etiquetas, que pueden ser seguidas y permiten el reconocimiento de planos a través de la cámara del equipo. La segunda se denomina Odometría Visual Inercial (VIO, por su nombre en inglés *Visual Intertial Odometry*) y corresponde a un sistema un poco más complejo que mediante el reconocimiento de planos, bordes y puntos de anclaje a través de la cámara, sumado al análisis de la información inercial entregada por los sensores integrados en el equipo, estima la posición y orientación de un equipo en el espacio.
+
+
 ## Apple iOS
 En junio de 2017 Apple lanzó [ARKit](https://developer.apple.com/arkit/), un entorno de programación para desarrollar aplicaciones de AR en iOS. ArKit es compatible con iOS 11 o superior y ya se encuentra disponible en su versión 1.5 que es compatible con iOS 11.3 beta.
 
