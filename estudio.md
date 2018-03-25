@@ -34,6 +34,12 @@ Durante el año 2017 Apple y Google lanzaron kits de desarrollo de aplicaciones 
 
 Existen alternativas que permiten programar para ambos sistemas operativos y luego exportar a ambas. La más popular es Vuforia, creado por la compañía Qualcomm y en 2015 adquirido por PTC, se ha posicionado como la plataforma de desarrollo de aplicaciones AR con más impacto en el mercado.
 
+#### Apple iOS
+
+En junio de 2017 Apple lanzó [ARKit](https://developer.apple.com/arkit/), una plataforma para desarrollar aplicaciones de AR en iOS. ARKit 
+
+ArKit es compatible con iOS 11 o superior y ya se encuentra disponible en su versión 1.5 que es compatible con iOS 11.3 beta.
+
 #### Google Android
 
 En 2017 Google lanzó la plataforma [ARCore](https://developers.google.com/ar/), un SDK para desarrollar aplicaciones móviles de AR basado en la experiencia del proyecto [Tango](https://es.wikipedia.org/wiki/Project_Tango), plataforma AR experimental creada por la compañía en 2015. Tras el anuncio de septiembre pasado, la versión 1.0 fue lanzada a fines de febrero de 2018 para ser descargada desde las plataformas de Google.
@@ -41,10 +47,6 @@ En 2017 Google lanzó la plataforma [ARCore](https://developers.google.com/ar/),
 ARCore cuenta con un motor que analiza los datos espaciales mediante un sistema de VIO que recoge la información de la cámara del dispositivo y de los sensores inerciales integrados. Además, cuenta con un algoritmo para detectar la intensidad lumínica del espacio. ARCore es compatible con softwares para desarrollo de VR como Unity y Unreal. Requiere OS Android 7.0 o superior. 
 
 ARCore solo puede ser ejecutado en teléfonos móviles que cuentan con sistema operativo Android (Nougat) 7.0 o superior, como el Samsung Galaxy S7 (o superior), el Google Pixel (o superior), y otros especificados [aquí](https://developers.google.com/ar/discover/).
-
-#### Apple iOS
-
-En junio de 2017 Apple lanzó [ARKit](https://developer.apple.com/arkit/), un entorno de programación para desarrollar aplicaciones de AR en iOS. ArKit es compatible con iOS 11 o superior y ya se encuentra disponible en su versión 1.5 que es compatible con iOS 11.3 beta.
 
 #### Multiplataforma
 
@@ -169,10 +171,11 @@ Tokyo Robot Show
 
 ### Artículos de Interés
 * [Realidad Aumentada, Wikipedia](https://es.wikipedia.org/wiki/Realidad_aumentada)
-* [Web-Powered Augmented Reality: a Hands-On Tutorial](https://medium.com/@urish/web-powered-augmented-reality-a-hands-on-tutorial-9e6a882e323e)
-* [Web AR with smart plugs using A-Frame](https://medium.com/the-unitgb/web-ar-with-smart-plugs-using-a-frame-d9828a846bd0)
-* [How to create Augmented Reality posters with Unity & Vuforia](https://medium.com/@devdevcharlie/how-to-create-augmented-reality-posters-with-unity-vuforia-ec80a82e6d51)
-* [How is ARCore better than ARKit?](https://medium.com/super-ventures-blog/how-is-arcore-better-than-arkit-5223e6b3e79d)
+* [Web-Powered Augmented Reality: a Hands-On Tutorial, Uri Shaked](https://medium.com/@urish/web-powered-augmented-reality-a-hands-on-tutorial-9e6a882e323e)
+* [Web AR with smart plugs using A-Frame, Gemma Vincent](https://medium.com/the-unitgb/web-ar-with-smart-plugs-using-a-frame-d9828a846bd0)
+* [How to create Augmented Reality posters with Unity & Vuforia, Charlie Gerard](https://medium.com/@devdevcharlie/how-to-create-augmented-reality-posters-with-unity-vuforia-ec80a82e6d51)
+* [How is ARCore better than ARKit?, Matt Miesnieks](https://medium.com/super-ventures-blog/how-is-arcore-better-than-arkit-5223e6b3e79d)
+* [Why is ARKit better than the alternatives?, Matt Miesnieks](https://medium.com/super-ventures-blog/why-is-arkit-better-than-the-alternatives-af8871889d6a)
 
 ### Teléfonos
 
