@@ -42,10 +42,30 @@ Es una plataforma open source de realidad mixta (MR), que permite generar experi
 
 Holokit consiste en un kit de visores de cartón en el que se monta un teléfono móvil, y un software de desarrollo basado en entornos de AR. Es compatible con ARKit y ARCore, por lo que tiene las mismas limitaciones de costo que dichas plataformas.
 
-# Preguntas
+#### Preguntas
 - Cómo transpilar desde ARCore a ARKit?
 
 https://easyar.com/
+
+
+#### Cuadro comparativo SDK
+|Plataforma |Empresa  |Año  |$ USD|Android|iOS    |
+|-----------|---------|-----|-----|-------|-------|
+|AR Kit     |Apple    |2017 |N/A  |N/A    |11+    |
+|AR Core    |Google   |2017 |N/A  |7.0+   |N/A    |
+|Vuforia    |PTC      |     |499  |4.4+   |9+     |
+
+Fuentes:
+- [Versión OS Android para AR Core](https://developers.google.com/ar/discover/)
+- [Versión iOS para AR Kit](https://developer.apple.com/arkit/)
+- [Versiones iOS, Android y Windows compatibles con Vuforia](https://library.vuforia.com/articles/Solution/Vuforia-Supported-Versions.html)
+- [Licencia Vuforia](https://developer.vuforia.com/vui/pricing)
+
+precios, disponibilidades en el mercado,
+
+resolucion, latencia,
+
+dependencias, costos mensuales, facilidad de instalacion
 
 ### Web-based AR
 
@@ -81,7 +101,8 @@ Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones 
 Para el desarrollo de aplicaciones AR web, Google ha desarrollado para Android - de manera no oficial aún - un navegador experimental llamado [WebARonARCore](https://github.com/google-ar/WebARonARCore). Al funcionar sobre AR Core de Google, este navegador exige los mismos requerimientos técnicos.
 
 
-# Requerimientos técnicos para montaje
+## Requerimientos técnicos para montaje
+El montaje de la obra "Monga" considera el uso de 30 o más disposivos móviles a una red WiFi para la descarga de una aplicación móvil o la descarga de datos a través de una app o el navegador web.
 
 |Marca  |Modelo        |Fecha|$ USD|OS                |WiFi              |
 |-------|--------------|-----|-----|------------------|------------------|
@@ -99,26 +120,6 @@ Para el desarrollo de aplicaciones AR web, Google ha desarrollado para Android -
 |Samsung|Galaxy Note 8 |2017 |950  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 |Samsung|Galaxy S9     |2018 |719  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 |Samsung|Galaxy S9+    |2018 |839  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
-
-
-# Cuadro comparativo SDK
-|Plataforma |Empresa  |Año  |$ USD|Android|iOS    |
-|-----------|---------|-----|-----|-------|-------|
-|AR Kit     |Apple    |2017 |N/A  |N/A    |11+    |
-|AR Core    |Google   |2017 |N/A  |7.0+   |N/A    |
-|Vuforia    |PTC      |     |499  |4.4+   |9+     |
-
-Fuentes:
-- [Versión OS Android para AR Core](https://developers.google.com/ar/discover/)
-- [Versión iOS para AR Kit](https://developer.apple.com/arkit/)
-- [Versiones iOS, Android y Windows compatibles con Vuforia](https://library.vuforia.com/articles/Solution/Vuforia-Supported-Versions.html)
-- [Licencia Vuforia](https://developer.vuforia.com/vui/pricing)
-
-precios, disponibilidades en el mercado,
-
-resolucion, latencia,
-
-dependencias, costos mensuales, facilidad de instalacion
 
 ## Referencias
 
