@@ -122,6 +122,8 @@ El montaje de la obra "Monga" considera el uso de 30 o más disposivos móviles 
 |Samsung|Galaxy S9     |2018 |719  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 |Samsung|Galaxy S9+    |2018 |839  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 
+## Conclusiones
+
 ## Referencias
 
 ### Tecnologías
