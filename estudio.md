@@ -14,20 +14,21 @@ Actualmente existen dos métodos para realizar odometría con un dispositivo mó
 
 La calidad de la experiencia generada depende intensamente de la tecnología elegida, ya que una app basada en VIO al contar con mayor información espacial puede tener muchos mejores resultados con un costo mayor de recursos de procesamiento, mientras que una app basada en etiquetas puede lograr resultados menos complejos con una exigencia de procesamiento menor. Las aplicaciones AR pueden ser montadas de dos formas distintas en teléfonos móviles: por un lado se pueden desarrollar localmente en un kit de desarrollo para luego ser publicadas en la *App Store*, mientras que por otro ladose pueden desarrollar en un entorno web que para ser ejecutadas en el navegador. Las características y requerimientos de cada una serán descritas a continuación.
 
+### SDKs para desarrollo de apps AR descargables
 
-## Apple iOS
-En junio de 2017 Apple lanzó [ARKit](https://developer.apple.com/arkit/), un entorno de programación para desarrollar aplicaciones de AR en iOS. ArKit es compatible con iOS 11 o superior y ya se encuentra disponible en su versión 1.5 que es compatible con iOS 11.3 beta.
-
-## Google Android
+#### Google Android
 Google desarrolló la plataforma [AR Core](https://developers.google.com/ar/) para desarrollar aplicaciones móviles descargables de AR. La versión 1.0 fue lanzada a fines de febrero de 2018.
 
 AR Core es una plataforma potente y moderna, compatible con softwares para desarrollo de VR como Unity y Unreal. Requiere un OS Android 7.0 o superior. La limitación de ARCore es que requiere teléfonos móviles de última generación, como el Samsung Galaxy S7 (o superior), el Google Pixel (o superior), y otros especificados [aquí](https://developers.google.com/ar/discover/).
 
-## Multiplataforma
-### [Vuforia](https://www.vuforia.com/)
+#### Apple iOS
+En junio de 2017 Apple lanzó [ARKit](https://developer.apple.com/arkit/), un entorno de programación para desarrollar aplicaciones de AR en iOS. ArKit es compatible con iOS 11 o superior y ya se encuentra disponible en su versión 1.5 que es compatible con iOS 11.3 beta.
+
+#### Multiplataforma
+##### [Vuforia](https://www.vuforia.com/)
 Es la plataforma de desarrollo de experiencias AR más utilizada. Licencia especial gratuita para desarrolladores que trabajan con [Unity](https://unity3d.com/). Licencia estándar de Vuforia tiene un costo de $499.00.
 
-#### Requerimientos dispositivo móvil
+###### Requerimientos dispositivo móvil
 |OS     |Versión|
 |-------|-------|
 |Android|4.4+   |
@@ -36,7 +37,7 @@ Es la plataforma de desarrollo de experiencias AR más utilizada. Licencia espec
 
 Fuente: [Vuforia Supported Versions](https://library.vuforia.com/articles/Solution/Vuforia-Supported-Versions.html)
 
-### [Holokit](https://holokit.io/)
+##### [Holokit](https://holokit.io/)
 Es una plataforma open source de realidad mixta (MR), que permite generar experiencias inmersivas utilizando el teléfono móvil. La realidad mixta es una variante que intenta mezclar los mejores atributos de VR y AR, generalmente creando experiencias a mediante el uso de visores VR en el que se puede ver el mundo real (mostrado mediante una cámara) sobre el cual se montan modelos de VR.
 
 Holokit consiste en un kit de visores de cartón en el que se monta un teléfono móvil, y un software de desarrollo basado en entornos de AR. Es compatible con ARKit y ARCore, por lo que tiene las mismas limitaciones de costo que dichas plataformas.
@@ -46,9 +47,9 @@ Holokit consiste en un kit de visores de cartón en el que se monta un teléfono
 
 https://easyar.com/
 
-## Web-based AR
+### Web-based AR
 
-### [A-frame](https://aframe.io/)
+#### [A-frame](https://aframe.io/)
 Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaciones de VR en la web basada en [three.js](https://threejs.org/). Es un entorno VR compatible con la mayoría de los [headsets](https://aframe.io/docs/0.8.0/introduction/) disponibles en el mercado, y puede ser utilizado para generar modelos 3D en aplicaciones de AR-web al incorporar la biblioteca [AR.js](https://aframe.io/blog/arjs/).
 
 Es compatible con las siguientes bibliotecas web (la lista es más larga y se puede encontrar [aquí](https://aframe.io/docs/0.8.0/introduction/faq.html#does-a-frame-support-x-library-or-framework)):
@@ -56,27 +57,27 @@ Es compatible con las siguientes bibliotecas web (la lista es más larga y se pu
 - [Preact](https://preactjs.com/)
 - [React](https://reactjs.org/)
 
-### [AR.js](https://github.com/jeromeetienne/AR.js)
+#### [AR.js](https://github.com/jeromeetienne/AR.js)
 Es una biblioteca de JavaScript que permite realizar aplicaciones de AR sobre HTML. Se puede conectar con [A-frame](https://aframe.io/blog/arjs/). En ese caso lo que AR.js hace es controlar la cámara del dispositivo basándose en etiquetas físicas que son detectadas por la cámara, de modo de dar el marco espacial para que A-frame renderice los modelos 3D.
 
 Está basada en three.js y [jsartoolkit5](https://github.com/artoolkit/jsartoolkit5) y pensada para correr aplicaciones AR-web desde cualquier teléfono móvil que tenga webgl y webrtc, incluidos en la versión de Google Chrome 64 o superior. Un ejemplo de esta biblioteca es el [siguiente](https://github.com/jeromeetienne/AR.js#try-it-on-mobile).
 
 Eficiencia en el uso de recursos?
 
-#### Ventajas
+##### Ventajas
 * AR.js corre en la mayoría de los teléfonos móviles
 * No requiere navegadores WebARonARCore o WebARonARKit
 
-#### Desventajas
+##### Desventajas
 * Requiere etiquetas para anclar el modelo al mundo real
 * No utiliza sensores espaciales del teléfono
 * Espacialización depende sólo de la cámara del equipo
 * Estabilidad en localización del modelo depende de la luminosidad del espacio
 
-### [three.ar.js](https://github.com/google-ar/three.ar.js)
+#### [three.ar.js](https://github.com/google-ar/three.ar.js)
 Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones AR web. Requiere la [extensión](https://github.com/google-ar/three.ar.js/blob/master/webvr_ar_extension.md) de la API WebVR para smartphones, disponibles en los navegadores WebARonARKit and WebARonARCore.
 
-### Web-based AR for Android
+#### Web-based AR for Android
 Para el desarrollo de aplicaciones AR web, Google ha desarrollado para Android - de manera no oficial aún - un navegador experimental llamado [WebARonARCore](https://github.com/google-ar/WebARonARCore). Al funcionar sobre AR Core de Google, este navegador exige los mismos requerimientos técnicos.
 
 
