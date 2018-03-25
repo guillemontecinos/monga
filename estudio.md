@@ -94,11 +94,11 @@ https://easyar.com/
 
 
 # Cuadro comparativo SDK
-|Plataforma         |Empresa  |Año  |$ USD|Android|iOS    |Windows|
-|-------------------|---------|-----|-----|-------|-------|-------|
-|AR Kit             |Apple    |2017 |N/A  |N/A    |11+    |N/A    |
-|AR Core            |Google   |2017 |N/A  |7.0+   |N/A    |N/A    |
-|Vuforia            |PTC      |     |499  |4.4+   |9+     |10     |
+|Plataforma |Empresa  |Año  |$ USD|Android|iOS    |
+|-----------|---------|-----|-----|-------|-------|
+|AR Kit     |Apple    |2017 |N/A  |N/A    |11+    |
+|AR Core    |Google   |2017 |N/A  |7.0+   |N/A    |
+|Vuforia    |PTC      |     |499  |4.4+   |9+     |
 
 Fuentes:
 - [Versión OS Android para AR Core](https://developers.google.com/ar/discover/)
