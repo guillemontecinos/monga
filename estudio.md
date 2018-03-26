@@ -47,7 +47,7 @@ ARCore cuenta con un motor que analiza los datos espaciales mediante un sistema 
 ##### [Vuforia](https://www.vuforia.com/)
 
 Es la plataforma de desarrollo de experiencias AR más utilizada en el mercado. Permite desarrollar aplicaciones compatibles con los sistemas iOS y Android, basado en la odomoetría por reconocimiento de patrones - etiquetas - a través de la cámara del dispositivo. Es compatible con Unity para desarrollo de modelos 3D, y con ARKit y ARCore.
-La licencia estándar de Vuforia tiene un costo de $499.00, pero existe una licencia especial gratuita para desarrolladores que trabajan con [Unity](https://unity3d.com/). 
+La licencia estándar de Vuforia tiene un costo de $499.00, pero existe una licencia especial gratuita para desarrolladores que trabajan con [Unity](https://unity3d.com/).
 
 ###### Requerimientos dispositivo móvil
 |OS     |Versión|
@@ -71,23 +71,17 @@ https://easyar.com/
 
 #### Cuadro comparativo SDK
 
-|Plataforma |Empresa  |Año  |$ USD|Android|iOS    |
-|-----------|---------|-----|-----|-------|-------|
-|AR Kit     |Apple    |2017 |N/A  |N/A    |11+    |
-|AR Core    |Google   |2017 |N/A  |7.0+   |N/A    |
-|Vuforia    |PTC      |     |499  |4.4+   |9+     |
+|Plataforma |Empresa  |Año  |$ USD|Android|iOS    |Unity|
+|-----------|---------|-----|-----|-------|-------|-----|
+|AR Kit     |Apple    |2017 |0    |N/A    |11+    |Sí   |
+|AR Core    |Google   |2017 |0    |7.0+   |N/A    |Sí   |
+|Vuforia    |PTC      |2011 |499  |4.4+   |9+     |Sí   |
 
 Fuentes:
 - [Versión OS Android para AR Core](https://developers.google.com/ar/discover/)
 - [Versión iOS para AR Kit](https://developer.apple.com/arkit/)
 - [Versiones iOS, Android y Windows compatibles con Vuforia](https://library.vuforia.com/articles/Solution/Vuforia-Supported-Versions.html)
 - [Licencia Vuforia](https://developer.vuforia.com/vui/pricing)
-
-precios, disponibilidades en el mercado,
-
-resolucion, latencia,
-
-facilidad de instalacion
 
 ### AR en formato web
 
@@ -159,7 +153,7 @@ El montaje de la obra "Monga" considera el uso de 30 o más disposivos móviles 
 
 * Unity es una buena opción, ya que posee integración con Google ARCore y con Apple ArKit, aunque está mejor soportado para Google ARCore.
 
-* 
+*
 
 ## Referencias
 
