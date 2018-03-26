@@ -165,7 +165,7 @@ El montaje de la obra "Monga" considera el uso de 30 o más disposivos móviles 
 
 ## Referencias
 
-Tokyo Robot Show
+* [David Bowie - New York Times](https://www.nytimes.com/interactive/2018/03/20/arts/design/bowie-costumes-ar-3d-ul.html): experiencia AR hecha con Apple ARKit.
 
 ### Tecnologías
 
