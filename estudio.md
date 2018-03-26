@@ -147,7 +147,11 @@ El montaje de la obra "Monga" considera el uso de 30 o más disposivos móviles 
 
 * Unity es una buena opción, ya que posee integración con Google ARCore y con Apple ArKit, aunque está mejor soportado para Google ARCore.
 
-*
+TODO:
+
+* Análisis de condiciones de desarrollo: si desarrollamos app sólo en iOS tenemos acceso limitado a celulares iOS 11+, si usamos ARCore también, pero podemos pedir auspicio a Samsung. Si utilizamos webAR con AR.js tenemos limitación en la performance pero corre en todos los celulares y mediante etiquetas podemos desplegar información.
+
+* Diseño de red router para distintos casos: descarga de app en vivo, descarga previa, app web, etc. Diseñar para 50 espectadores.
 
 ## Referencias
 
