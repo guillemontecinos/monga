@@ -1,6 +1,6 @@
 # Informe Técnico: Estado del arte de Realidad Aumentada (AR) en teléfonos móviles para  montajes teatrales
 
-*Por Aarón Montoya y Guillermo Montecinos*  
+*Por Aarón Montoya-Moraga y Guillermo Montecinos*  
 *27 de abril de 2018*
 
 ## Introducción  
