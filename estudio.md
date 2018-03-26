@@ -44,7 +44,8 @@ ARCore cuenta con un motor que analiza los datos espaciales mediante un sistema 
 
 ##### [Vuforia](https://www.vuforia.com/)
 
-Es la plataforma de desarrollo de experiencias AR más utilizada en el mercado. Permite desarrollar aplicaciones compatibles con los sistemas iOS y Android, basado en la odomoetría por reconocimiento de patrones - etiquetas - a través de la cámara del dispositivo. Es compatible con Unity para desarrollo de modelos 3D, y con ARKit y ARCore.
+Es la plataforma de desarrollo de experiencias AR más utilizada en el mercado. Permite desarrollar aplicaciones compatibles con los sistemas iOS y Android, basado en la odomoetría por reconocimiento de patrones - etiquetas - a través de la cámara del dispositivo. Es compatible con Unity para desarrollo de modelos 3D, y con ARKit y ARCore. Un ejemplo de aplicacin AR realizada con Vuforia y Unity puede encontrarse [aquí](https://www.youtube.com/watch?v=jAmU0L_wfV0).
+
 La licencia estándar de Vuforia tiene un costo de $499.00, pero existe una licencia especial gratuita para desarrolladores que trabajan con [Unity](https://unity3d.com/).
 
 ###### Requerimientos dispositivo móvil
