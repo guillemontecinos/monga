@@ -34,27 +34,28 @@ Durante el año 2017 Apple y Google lanzaron kits de desarrollo de aplicaciones 
 
 Existen alternativas que permiten programar para ambos sistemas operativos y luego exportar a ambas. La más popular es Vuforia, creado por la compañía Qualcomm y en 2015 adquirido por PTC, se ha posicionado como la plataforma de desarrollo de aplicaciones AR con más impacto en el mercado.
 
-#### Google Android
-
-En 2017 Google lanzó la plataforma [AR Core](https://developers.google.com/ar/), un SDK para desarrollar aplicaciones móviles de AR basado en la experiencia del proyecto [Tango](https://es.wikipedia.org/wiki/Project_Tango), plataforma AR experimental creada por la compañía en 2015. La versión 1.0 fue lanzada a fines de febrero de 2018.
-
-ARCore es una plataforma potente y moderna, compatible con softwares para desarrollo de VR como Unity y Unreal. Requiere OS Android 7.0 o superior. La limitación de ARCore es que requiere teléfonos móviles de última generación, como el Samsung Galaxy S7 (o superior), el Google Pixel (o superior), y otros especificados [aquí](https://developers.google.com/ar/discover/).
-
 #### Apple iOS
 
-En junio de 2017 Apple lanzó [ARKit](https://developer.apple.com/arkit/), un entorno de programación para desarrollar aplicaciones de AR en iOS. ArKit es compatible con iOS 11 o superior y ya se encuentra disponible en su versión 1.5 que es compatible con iOS 11.3 beta.
+En junio de 2017 Apple lanzó [ARKit](https://developer.apple.com/arkit/), una plataforma para desarrollar aplicaciones de AR en iOS. ARKit es un sistema de Odometría Visual Inercial (VIO) incorporado en los dispositivos móviles de Apple a partir del iOS 11.0, cuya función es capturar la información del espacio en que está ubicado el equipo y procesarla para generar los inputs necesarios para el modelamiento de una experiencia AR. Es compatible con herramientas de desarrollo AR externas como Unity y Unreal. A la fecha de entrega de este estudio ArKit se encuentra disponible en su versión 1.5 que es compatible con iOS 11.3 beta.
+
+#### Google Android
+
+En 2017 Google lanzó la plataforma [ARCore](https://developers.google.com/ar/), un SDK para desarrollar aplicaciones móviles de AR basado en la experiencia del proyecto [Tango](https://es.wikipedia.org/wiki/Project_Tango), plataforma AR experimental creada por la compañía en 2015. Tras el anuncio de septiembre pasado, la versión 1.0 fue lanzada a fines de febrero de 2018 para ser descargada desde las plataformas de Google.
+
+ARCore cuenta con un motor que analiza los datos espaciales mediante un sistema de VIO que recoge la información de la cámara del dispositivo y de los sensores inerciales integrados. Además, cuenta con un algoritmo para detectar la intensidad lumínica del espacio. ARCore es compatible con sistema operativo Android (Nougat) 7.0 o superior, como el Samsung Galaxy S7 (o superior), el Google Pixel (o superior), y otros especificados [aquí](https://developers.google.com/ar/discover/). Además, es compatible con softwares para desarrollo de VR como Unity y Unreal.
 
 #### Multiplataforma
 
 ##### [Vuforia](https://www.vuforia.com/)
-Es la plataforma de desarrollo de experiencias AR más utilizada. Licencia especial gratuita para desarrolladores que trabajan con [Unity](https://unity3d.com/). Licencia estándar de Vuforia tiene un costo de $499.00.
+
+Es la plataforma de desarrollo de experiencias AR más utilizada en el mercado. Permite desarrollar aplicaciones compatibles con los sistemas iOS y Android, basado en la odomoetría por reconocimiento de patrones - etiquetas - a través de la cámara del dispositivo. Es compatible con Unity para desarrollo de modelos 3D, y con ARKit y ARCore.
+La licencia estándar de Vuforia tiene un costo de $499.00, pero existe una licencia especial gratuita para desarrolladores que trabajan con [Unity](https://unity3d.com/). 
 
 ###### Requerimientos dispositivo móvil
 |OS     |Versión|
 |-------|-------|
 |Android|4.4+   |
 |iOS    |9+     |
-|Windows|10     |
 
 Fuente: [Vuforia Supported Versions](https://library.vuforia.com/articles/Solution/Vuforia-Supported-Versions.html)
 
@@ -92,38 +93,45 @@ facilidad de instalacion
 
 ### AR en formato web
 
-#### [A-frame](https://aframe.io/)
+Existen dos formas de desarrollar aplicaciones de AR en la web: la primera consiste en ejecutar en HTML un script JavaScript que mediante la biblioteca AR.js realice odometría utilizando la cámara del dispositivo, mediante visión por computador (CV), para luego renderizar modelos 3D utilizando A-frame u otros entornos para crear modelos VR. La segunda consiste en utilizar las plataformas de VIO ARKit o ARCore para analizar los datos espaciales de AR, y ejecutar en un navegador adaptado a estas plataforas, ya sea WebARonARKit o WebARonARCore, un script que analice dicha información mediante la biblioteca three.ar.js para luego renderizar los modelos 3D utilizando three.js.
+
+#### AR web con odometría por CV
+![](https://github.com/guillemontecinos/monga/blob/master/assets/web_AR_CV.jpg)
+
+##### [A-frame](https://aframe.io/)
 Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaciones de VR en la web basada en [three.js](https://threejs.org/). Es un entorno VR compatible con la mayoría de los [headsets](https://aframe.io/docs/0.8.0/introduction/) disponibles en el mercado, y puede ser utilizado para generar modelos 3D en aplicaciones de AR-web al incorporar la biblioteca [AR.js](https://aframe.io/blog/arjs/).
 
-Es compatible con las siguientes bibliotecas web (la lista es más larga y se puede encontrar [aquí](https://aframe.io/docs/0.8.0/introduction/faq.html#does-a-frame-support-x-library-or-framework)):
+Es compatible con las siguientes bibliotecas web (lista completa [aquí](https://aframe.io/docs/0.8.0/introduction/faq.html#does-a-frame-support-x-library-or-framework)):
 - [D3.js](https://d3js.org/)
 - [Preact](https://preactjs.com/)
 - [React](https://reactjs.org/)
 
-#### [AR.js](https://github.com/jeromeetienne/AR.js)
+##### [AR.js](https://github.com/jeromeetienne/AR.js)
 
-Es una biblioteca de JavaScript que permite realizar aplicaciones de AR sobre HTML. Se puede conectar con [A-frame](https://aframe.io/blog/arjs/). En ese caso lo que AR.js hace es controlar la cámara del dispositivo basándose en etiquetas físicas que son detectadas por la cámara, de modo de dar el marco espacial para que A-frame renderice los modelos 3D.
+Es una biblioteca de JavaScript que permite realizar aplicaciones de AR en un entorno HTML. Se puede conectar con [A-frame](https://aframe.io/blog/arjs/) de modo que AR.js administre la información obtenida a través de la cámara del dispositivo, basándose en odometría mediante etiquetas, de modo de dar el marco espacial para que A-frame renderice los modelos 3D.
 
 Está basada en [three.js](https://threejs.org/) y [jsartoolkit5](https://github.com/artoolkit/jsartoolkit5) y pensada para correr aplicaciones AR-web desde cualquier teléfono móvil que posea webGL y webRTC, incluidos en la versión de Google Chrome 64 o superior. Un ejemplo de esta biblioteca es el [siguiente](https://github.com/jeromeetienne/AR.js#try-it-on-mobile).
 
-Eficiencia en el uso de recursos?
-
-##### Ventajas
+###### Ventajas
 * AR.js corre en la mayoría de los teléfonos móviles
+* Al utilizar odometría mediante etiquetas utiliza menor cantidad de recursos
 * No requiere navegadores WebARonARCore o WebARonARKit
 
-##### Desventajas
+###### Desventajas
 * Requiere etiquetas para anclar el modelo al mundo real
 * No utiliza sensores espaciales del teléfono
 * Espacialización depende sólo de la cámara del equipo
 * Estabilidad en localización del modelo depende de la luminosidad del espacio
 
-#### [three.ar.js](https://github.com/google-ar/three.ar.js)
-Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones AR web. Requiere la [extensión](https://github.com/google-ar/three.ar.js/blob/master/webvr_ar_extension.md) de la API WebVR para smartphones, disponibles en los navegadores WebARonARKit and WebARonARCore.
+#### AR web con VIO (ARKit o ARCore)
+![](https://github.com/guillemontecinos/monga/blob/master/assets/web_AR_VIO.jpg)
 
-#### Web-based AR for Android
+##### Web-based AR for Android
 
 Para el desarrollo de aplicaciones AR web, Google ha desarrollado para Android - de manera no oficial aún - un navegador experimental llamado [WebARonARCore](https://github.com/google-ar/WebARonARCore). Al funcionar sobre AR Core de Google, este navegador exige los mismos requerimientos técnicos.
+
+##### [three.ar.js](https://github.com/google-ar/three.ar.js)
+Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones AR web. Requiere la [extensión](https://github.com/google-ar/three.ar.js/blob/master/webvr_ar_extension.md) de la API WebVR para smartphones, disponibles en los navegadores WebARonARKit and WebARonARCore.
 
 
 ## Requerimientos técnicos para montaje
@@ -167,10 +175,11 @@ El montaje de la obra "Monga" considera el uso de 30 o más disposivos móviles 
 
 ### Artículos de Interés
 * [Realidad Aumentada, Wikipedia](https://es.wikipedia.org/wiki/Realidad_aumentada)
-* [Web-Powered Augmented Reality: a Hands-On Tutorial](https://medium.com/@urish/web-powered-augmented-reality-a-hands-on-tutorial-9e6a882e323e)
-* [Web AR with smart plugs using A-Frame](https://medium.com/the-unitgb/web-ar-with-smart-plugs-using-a-frame-d9828a846bd0)
-* [How to create Augmented Reality posters with Unity & Vuforia](https://medium.com/@devdevcharlie/how-to-create-augmented-reality-posters-with-unity-vuforia-ec80a82e6d51)
-* [How is ARCore better than ARKit?](https://medium.com/super-ventures-blog/how-is-arcore-better-than-arkit-5223e6b3e79d)
+* [Web-Powered Augmented Reality: a Hands-On Tutorial, Uri Shaked](https://medium.com/@urish/web-powered-augmented-reality-a-hands-on-tutorial-9e6a882e323e)
+* [Web AR with smart plugs using A-Frame, Gemma Vincent](https://medium.com/the-unitgb/web-ar-with-smart-plugs-using-a-frame-d9828a846bd0)
+* [How to create Augmented Reality posters with Unity & Vuforia, Charlie Gerard](https://medium.com/@devdevcharlie/how-to-create-augmented-reality-posters-with-unity-vuforia-ec80a82e6d51)
+* [How is ARCore better than ARKit?, Matt Miesnieks](https://medium.com/super-ventures-blog/how-is-arcore-better-than-arkit-5223e6b3e79d)
+* [Why is ARKit better than the alternatives?, Matt Miesnieks](https://medium.com/super-ventures-blog/why-is-arkit-better-than-the-alternatives-af8871889d6a)
 
 ### Teléfonos
 
