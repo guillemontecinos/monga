@@ -114,8 +114,10 @@ Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaci
 
 Una forma de desarrollar experiencias AR web más complejas es utilizando los navegadores web desarrollados por Google que permiten ejecutar aplicaciones AR sobre ARKit en iOS y ARCore en Android. Estos navegadores, llamados [WebARonARKit](https://github.com/google-ar/WebARonARKit) y [WebARonARCore](https://github.com/google-ar/WebARonARCore) respectivamente, han sido liberados como aplicaciones móviles experimentales para desarrollo. Al ser ejecutados sobre ARKit y ARCore, este navegador exige los mismos requerimientos técnicos.
 
+El rol de estos navegadores es conectar la información espacial procesada por los sistemas VIO con la biblioteca que analiza dichos datos, que en este caso corresponde a la biblioteca experimental three.ar.js diseñada por Google para el prototipado de aplicaciones AR web que usen ARKit o ARCore. Al igual que en AR web con odometría por CV, los modelos 3D o la información desplegada en el entorno AR se renderiza utilizando una biblioteca como three.js.
+
 ##### [three.ar.js](https://github.com/google-ar/three.ar.js)
-Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones AR web. Requiere la [extensión](https://github.com/google-ar/three.ar.js/blob/master/webvr_ar_extension.md) de la API WebVR para smartphones, disponibles en los navegadores WebARonARKit and WebARonARCore.
+Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones AR web. Cumple el rol de asistir a los objetos de la clase three.js para conectarse con la información obtenida por el sistema VIO y generar los modelos VR 3D. La Los modelos generados en esta operación son conectados con los navegadores web AR mediante la [extensión WebVR](https://github.com/google-ar/three.ar.js/blob/master/webvr_ar_extension.md) para smartphones, disponibles en los navegadores WebARonARKit and WebARonARCore, para luego ser desplegados en el espacio AR.
 
 
 ## Requerimientos técnicos para montaje
