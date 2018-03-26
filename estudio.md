@@ -56,7 +56,6 @@ La licencia estándar de Vuforia tiene un costo de $499.00, pero existe una lice
 |-------|-------|
 |Android|4.4+   |
 |iOS    |9+     |
-|Windows|10     |
 
 Fuente: [Vuforia Supported Versions](https://library.vuforia.com/articles/Solution/Vuforia-Supported-Versions.html)
 
