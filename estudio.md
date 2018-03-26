@@ -32,7 +32,7 @@ Existen alternativas que permiten programar para ambos sistemas operativos y lue
 
 #### Apple iOS
 
-En junio de 2017 Apple lanzó [ARKit](https://developer.apple.com/arkit/), una plataforma para desarrollar aplicaciones de AR en iOS. ARKit es un sistema de Odometría Visual Inercial (VIO) incorporado en los dispositivos móviles de Apple a partir del iOS 11.0, cuya función es capturar la información del espacio en que está ubicado el equipo y procesarla para generar los inputs necesarios para el modelamiento de una experiencia AR. Es compatible con herramientas de desarrollo AR externas como Unity y Unreal. A la fecha de entrega de este estudio ArKit se encuentra disponible en su versión 1.5 que es compatible con iOS 11.3 beta.
+En junio de 2017 Apple lanzó [ARKit](https://developer.apple.com/arkit/), una plataforma para desarrollar aplicaciones de AR en iOS. ARKit es un sistema de Odometría Visual Inercial (VIO) incorporado en los dispositivos móviles de Apple a partir del iOS 11.0, cuya función es capturar la información del espacio en que está ubicado el equipo y procesarla para generar los inputs necesarios para el modelamiento de una experiencia AR. Es compatible con herramientas de desarrollo de modelos 3D externas como Unity y Unreal. A la fecha de entrega de este estudio ArKit se encuentra disponible en su versión 1.5 que es compatible con iOS 11.3 beta.
 
 #### Google Android
 
