@@ -26,11 +26,9 @@ Las aplicaciones AR pueden ser instaladas de distintas formas en teléfonos móv
 
 ### Entornos de desarrollo de aplicaciones AR
 
-Un SDK (Kit de Desarrollo de Software, en inglés *Software Development Kit*) es una plataforma que permite el desarrollo de software en un entorno particular, y que tiene una serie de complementos orientados a ciertas funciones específicas.
+Un SDK (Kit de Desarrollo de Software, en inglés *Software Development Kit*) es una plataforma que permite el desarrollo de software en un entorno particular, y que tiene una serie de complementos orientados a ciertas funciones específicas. Durante el año 2017 Apple y Google lanzaron kits de desarrollo de aplicaciones de AR en los sistemas operativos iOS y Android, respectivamente. Estos kits son exclusivos, por lo que para programar una aplicación que funcione en iOs y Android, hay que programarlas paralelamente.
 
-Durante el año 2017 Apple y Google lanzaron kits de desarrollo de aplicaciones de AR en los sistemas operativos iOS y Android, respectivamente. Estos kits son exclusivos, por lo que para programar una aplicación que funcione en iOs y Android, hay que programarlas paralelamente.
-
-Existen alternativas que permiten programar para ambos sistemas operativos y luego exportar a ambas. La más popular es Vuforia, creado por la compañía Qualcomm y en 2015 adquirido por PTC, se ha posicionado como la plataforma de desarrollo de aplicaciones AR con más impacto en el mercado.
+Existen alternativas que permiten programar para ambos sistemas operativos y luego exportar a ambas. La más popular es Vuforia, creado por la compañía Qualcomm y en 2015 adquirido por PTC, que se ha posicionado como la plataforma de desarrollo de aplicaciones AR con más impacto en el mercado.
 
 #### Apple iOS
 
