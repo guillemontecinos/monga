@@ -81,13 +81,17 @@ Fuentes:
 
 ### AR en formato web
 
-Existen dos formas de desarrollar aplicaciones de AR en la web: la primera consiste en ejecutar en HTML un script JavaScript que mediante la biblioteca AR.js realice odometría utilizando la cámara del dispositivo, mediante visión por computador (CV), para luego renderizar modelos 3D utilizando A-frame u otros entornos para crear modelos VR. La segunda consiste en utilizar las plataformas de VIO ARKit o ARCore para analizar los datos espaciales de AR, y ejecutar en un navegador adaptado a estas plataforas, ya sea WebARonARKit o WebARonARCore, un script que analice dicha información mediante la biblioteca three.ar.js para luego renderizar los modelos 3D utilizando three.js.
+Existen dos formas de desarrollar aplicaciones de AR en la web: la primera consiste en ejecutar en HTML un script JavaScript que mediante la biblioteca AR.js realice odometría utilizando la cámara del dispositivo, mediante visión por computador (CV), para luego renderizar modelos 3D utilizando A-frame u otros entornos para crear modelos VR. La segunda consiste en utilizar las plataformas VIO ARKit o ARCore para analizar los datos espaciales, y ejecutar en un navegador adaptado a estas plataforas, ya sea WebARonARKit o WebARonARCore, un script que analice dicha información mediante la biblioteca three.ar.js para luego renderizar los modelos 3D utilizando three.js.
 
 #### AR web con odometría por CV
 
+El desarrollo de experiencias AR web con odometría por CV requiere la conexión de algunos componentes en el entorno HTML. Generalmente en estos casos la imagen es capturada mediante la cámara integrada del equipo a través de un objeto DOM de HTML. Luego esta imagen es analizada utilizando una biblioteca que realiza la odometría mediante algoritmos de visión por computación, com AR.js. Este tipo de complementos también crean objetos AR como escenas, sobre las cuales se renderizan modelos 3D utilizando plataformas como A-frame o simplemente three.js.
+
+![](https://github.com/guillemontecinos/monga/blob/master/assets/web_AR_CV.jpg)
+
 ##### [AR.js](https://github.com/jeromeetienne/AR.js)
 
-Es una biblioteca de JavaScript que permite realizar aplicaciones de AR en un entorno HTML mediante odometría basada en etiquetas. Está basada en [three.js](https://threejs.org/) y [jsartoolkit5](https://github.com/artoolkit/jsartoolkit5) y pensada para correr aplicaciones AR web desde cualquier teléfono móvil que posea webGL y webRTC, incluidos en la versión de Google Chrome 64 o superior. Un ejemplo de esta biblioteca es el [siguiente](https://github.com/jeromeetienne/AR.js#try-it-on-mobile).
+Es una biblioteca de JavaScript que permite realizar aplicaciones de AR en un entorno HTML mediante odometría por seguimiento de etiquetas. Está basada en [three.js](https://threejs.org/) y [jsartoolkit5](https://github.com/artoolkit/jsartoolkit5) y pensada para correr aplicaciones AR web desde cualquier teléfono móvil que posea webGL y webRTC, complementos incluidos desde la versión de Google Chrome 64 o superior. Un ejemplo de esta biblioteca es el [siguiente](https://github.com/jeromeetienne/AR.js#try-it-on-mobile).
 
 ###### Ventajas
 * AR.js corre en la mayoría de los teléfonos móviles
@@ -99,8 +103,6 @@ Es una biblioteca de JavaScript que permite realizar aplicaciones de AR en un en
 * No utiliza sensores espaciales del teléfono
 * Espacialización depende sólo de la cámara del equipo
 * Estabilidad en localización del modelo depende de la luminosidad del espacio
-
-![](https://github.com/guillemontecinos/monga/blob/master/assets/web_AR_CV.jpg)
 
 ##### [A-frame](https://aframe.io/)
 Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaciones de VR en la web basada en [three.js](https://threejs.org/). Es un entorno VR compatible con la mayoría de los [headsets](https://aframe.io/docs/0.8.0/introduction/) disponibles en el mercado, y puede ser utilizado para generar modelos 3D en aplicaciones de AR-web al incorporar la biblioteca [AR.js](https://aframe.io/blog/arjs/).
