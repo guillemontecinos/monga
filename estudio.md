@@ -82,15 +82,6 @@ Fuentes:
 Existen dos formas de desarrollar aplicaciones de AR en la web: la primera consiste en ejecutar en HTML un script JavaScript que mediante la biblioteca AR.js realice odometría utilizando la cámara del dispositivo, mediante visión por computador (CV), para luego renderizar modelos 3D utilizando A-frame u otros entornos para crear modelos VR. La segunda consiste en utilizar las plataformas de VIO ARKit o ARCore para analizar los datos espaciales de AR, y ejecutar en un navegador adaptado a estas plataforas, ya sea WebARonARKit o WebARonARCore, un script que analice dicha información mediante la biblioteca three.ar.js para luego renderizar los modelos 3D utilizando three.js.
 
 #### AR web con odometría por CV
-![](https://github.com/guillemontecinos/monga/blob/master/assets/web_AR_CV.jpg)
-
-##### [A-frame](https://aframe.io/)
-Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaciones de VR en la web basada en [three.js](https://threejs.org/). Es un entorno VR compatible con la mayoría de los [headsets](https://aframe.io/docs/0.8.0/introduction/) disponibles en el mercado, y puede ser utilizado para generar modelos 3D en aplicaciones de AR-web al incorporar la biblioteca [AR.js](https://aframe.io/blog/arjs/).
-
-Es compatible con las siguientes bibliotecas web (lista completa [aquí](https://aframe.io/docs/0.8.0/introduction/faq.html#does-a-frame-support-x-library-or-framework)):
-- [D3.js](https://d3js.org/)
-- [Preact](https://preactjs.com/)
-- [React](https://reactjs.org/)
 
 ##### [AR.js](https://github.com/jeromeetienne/AR.js)
 
@@ -108,6 +99,16 @@ Está basada en [three.js](https://threejs.org/) y [jsartoolkit5](https://github
 * No utiliza sensores espaciales del teléfono
 * Espacialización depende sólo de la cámara del equipo
 * Estabilidad en localización del modelo depende de la luminosidad del espacio
+
+![](https://github.com/guillemontecinos/monga/blob/master/assets/web_AR_CV.jpg)
+
+##### [A-frame](https://aframe.io/)
+Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaciones de VR en la web basada en [three.js](https://threejs.org/). Es un entorno VR compatible con la mayoría de los [headsets](https://aframe.io/docs/0.8.0/introduction/) disponibles en el mercado, y puede ser utilizado para generar modelos 3D en aplicaciones de AR-web al incorporar la biblioteca [AR.js](https://aframe.io/blog/arjs/).
+
+Es compatible con las siguientes bibliotecas web (lista completa [aquí](https://aframe.io/docs/0.8.0/introduction/faq.html#does-a-frame-support-x-library-or-framework)):
+- [D3.js](https://d3js.org/)
+- [Preact](https://preactjs.com/)
+- [React](https://reactjs.org/)
 
 #### AR web con VIO (ARKit o ARCore)
 ![](https://github.com/guillemontecinos/monga/blob/master/assets/web_AR_VIO.jpg)
