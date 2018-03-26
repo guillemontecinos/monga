@@ -1,6 +1,6 @@
 # Informe Técnico: Estado del arte de Realidad Aumentada (AR) en teléfonos móviles para  montajes teatrales
 
-*Por Aarón Montoya y Guillermo Montecinos*  
+*Por Aarón Montoya-Moraga y Guillermo Montecinos*  
 *27 de abril de 2018*
 
 ## Introducción  
@@ -126,9 +126,7 @@ Está basada en [three.js](https://threejs.org/) y [jsartoolkit5](https://github
 #### AR web con VIO (ARKit o ARCore)
 ![](https://github.com/guillemontecinos/monga/blob/master/assets/web_AR_VIO.jpg)
 
-##### Web-based AR for Android
-
-Para el desarrollo de aplicaciones AR web, Google ha desarrollado para Android - de manera no oficial aún - un navegador experimental llamado [WebARonARCore](https://github.com/google-ar/WebARonARCore). Al funcionar sobre AR Core de Google, este navegador exige los mismos requerimientos técnicos.
+Una forma de desarrollar experiencias AR web más complejas es utilizando los navegadores web desarrollados por Google que permiten ejecutar aplicaciones AR sobre ARKit en iOS y ARCore en Android. Estos navegadores, llamados [WebARonARKit](https://github.com/google-ar/WebARonARKit) y [WebARonARCore](https://github.com/google-ar/WebARonARCore) respectivamente, han sido liberados como aplicaciones móviles experimentales para desarrollo. Al ser ejecutados sobre ARKit y ARCore, este navegador exige los mismos requerimientos técnicos.
 
 ##### [three.ar.js](https://github.com/google-ar/three.ar.js)
 Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones AR web. Requiere la [extensión](https://github.com/google-ar/three.ar.js/blob/master/webvr_ar_extension.md) de la API WebVR para smartphones, disponibles en los navegadores WebARonARKit and WebARonARCore.
@@ -168,6 +166,7 @@ El montaje de la obra "Monga" considera el uso de 30 o más disposivos móviles 
 ## Referencias
 
 * [David Bowie - New York Times](https://www.nytimes.com/interactive/2018/03/20/arts/design/bowie-costumes-ar-3d-ul.html): experiencia AR hecha con Apple ARKit.
+![](https://github.com/guillemontecinos/monga/blob/master/assets/bowie_example.jpeg)
 
 ### Tecnologías
 
