@@ -107,10 +107,7 @@ Es una biblioteca de JavaScript que permite realizar aplicaciones de AR en un en
 ##### [A-frame](https://aframe.io/)
 Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaciones de VR en la web basada en [three.js](https://threejs.org/). Es un entorno VR compatible con la mayoría de los [headsets](https://aframe.io/docs/0.8.0/introduction/) disponibles en el mercado, y puede ser utilizado para generar modelos 3D en aplicaciones de AR-web al incorporar la biblioteca [AR.js](https://aframe.io/blog/arjs/).
 
-[A-frame](https://aframe.io/blog/arjs/) puede ser conectada con AR.js de modo que esta última administre la información obtenida a través de la cámara del dispositivo, basándose en odometría mediante etiquetas, de modo de dar el marco espacial para que A-frame renderice los modelos 3D. Es compatible con las siguientes bibliotecas web (lista completa [aquí](https://aframe.io/docs/0.8.0/introduction/faq.html#does-a-frame-support-x-library-or-framework)):
-- [D3.js](https://d3js.org/)
-- [Preact](https://preactjs.com/)
-- [React](https://reactjs.org/)
+[A-frame](https://aframe.io/blog/arjs/) puede ser conectada con AR.js de modo que esta última administre la información obtenida a través de la cámara del dispositivo, basándose en odometría mediante etiquetas, de modo de dar el marco espacial para que A-frame renderice los modelos 3D. Es compatible con bibliotecas de desarrollo web como [aquí](https://aframe.io/docs/0.8.0/introduction/faq.html#does-a-frame-support-x-library-or-framework) [D3.js](https://d3js.org/) y [React](https://reactjs.org/).
 
 #### AR web con VIO (ARKit o ARCore)
 ![](https://github.com/guillemontecinos/monga/blob/master/assets/web_AR_VIO.jpg)
