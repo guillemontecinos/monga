@@ -87,6 +87,8 @@ Existen dos formas de desarrollar aplicaciones de AR en la web: la primera consi
 
 El desarrollo de experiencias AR web con odometría por CV requiere la conexión de algunos componentes en el entorno HTML. Generalmente en estos casos la imagen es capturada mediante la cámara integrada del equipo a través de un objeto DOM de HTML. Luego esta imagen es analizada utilizando una biblioteca que realiza la odometría mediante algoritmos de visión por computación, com AR.js. Este tipo de complementos también crean objetos AR como escenas, sobre las cuales se renderizan modelos 3D utilizando plataformas como A-frame o simplemente three.js.
 
+TODO: Actualizar Imagen (Guille)
+
 ![](https://github.com/guillemontecinos/monga/blob/master/assets/web_AR_CV.jpg)
 
 ##### [AR.js](https://github.com/jeromeetienne/AR.js)
@@ -110,6 +112,9 @@ Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaci
 [A-frame](https://aframe.io/blog/arjs/) puede ser conectada con AR.js de modo que esta última administre la información obtenida a través de la cámara del dispositivo, basándose en odometría mediante etiquetas, de modo de dar el marco espacial para que A-frame renderice los modelos 3D, como en siguiente [ejemplo](https://aframe.io/blog/arjs/). Es compatible con bibliotecas de desarrollo web como [D3.js](https://d3js.org/) y [React](https://reactjs.org/).
 
 #### AR web con VIO (ARKit o ARCore)
+
+TODO: Actualizar Imagen (Guille)
+
 ![](https://github.com/guillemontecinos/monga/blob/master/assets/web_AR_VIO.jpg)
 
 Una forma de desarrollar experiencias AR web más complejas es utilizando los navegadores web desarrollados por Google que permiten ejecutar aplicaciones AR sobre ARKit en iOS y ARCore en Android. Estos navegadores, llamados [WebARonARKit](https://github.com/google-ar/WebARonARKit) y [WebARonARCore](https://github.com/google-ar/WebARonARCore) respectivamente, han sido liberados como aplicaciones móviles experimentales para desarrollo. Al ser ejecutados sobre ARKit y ARCore, este navegador exige los mismos requerimientos técnicos.
@@ -122,7 +127,7 @@ Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones 
 
 ## Requerimientos técnicos para montaje
 
-El montaje de la obra "Monga" considera el uso de 30 o más disposivos móviles a una red WiFi para la descarga de una aplicación móvil o la descarga de datos a través de una app o el navegador web.
+El montaje de la obra "Monga" considera el uso de 50 o más disposivos móviles conectados a una red WiFi para la descarga de una aplicación móvil o la descarga de datos a través de una app o el navegador web. La siguiente tabla resume los teléfonos móviles soportados por las tecnologías ARKit y ARCore.
 
 |Marca  |Modelo        |Fecha|$ USD|OS                |WiFi              |
 |-------|--------------|-----|-----|------------------|------------------|
@@ -141,6 +146,12 @@ El montaje de la obra "Monga" considera el uso de 30 o más disposivos móviles 
 |Samsung|Galaxy S9     |2018 |719  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 |Samsung|Galaxy S9+    |2018 |839  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 
+Como apreciamos, todos los equipos soportados por los sistemas VIO para AR utilizan el mismo protocolo WiFi para la transmisión de datos.
+
+TODO: (Aarón)
+
+* Ahora que sabemos que todos los celulares ocupan el mismo protocolo, debemos diseñar la red según las necesidades. Este punto se relaciona con el punto de las conclusiones.
+
 ## Conclusiones
 
 * Es más fácil, barato y rápido programar una aplicación que corra exclusivamente en Google Android o solamente en Apple iOs.
@@ -149,7 +160,7 @@ El montaje de la obra "Monga" considera el uso de 30 o más disposivos móviles 
 
 * Unity es una buena opción, ya que posee integración con Google ARCore y con Apple ArKit, aunque está mejor soportado para Google ARCore.
 
-TODO:
+TODO: (Aarón)
 
 * Análisis de condiciones de desarrollo: si desarrollamos app sólo en iOS tenemos acceso limitado a celulares iOS 11+, si usamos ARCore también, pero podemos pedir auspicio a Samsung. Si utilizamos webAR con AR.js tenemos limitación en la performance pero corre en todos los celulares y mediante etiquetas podemos desplegar información.
 
