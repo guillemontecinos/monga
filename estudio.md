@@ -1,15 +1,13 @@
 # Informe Técnico: Estado del arte de Realidad Aumentada (AR) en teléfonos móviles para  montajes teatrales
 
 *Por Aarón Montoya-Moraga y Guillermo Montecinos*  
-*27 de abril de 2018*
+*27 de marzo de 2018*
 
 ## Introducción  
 
 El siguiente informe técnico aborda el estado del arte de Realidad Aumentada (AR, por su sigla en inglés).
 
 Por realidad aumentada se entiende una visión en vivo del mundo físico, cuyos elementos son aumentados por información generada por computador. Permite la incorporación de información digital - imágenes, datos, modelos 3D, sonido, entre otros - sobre un entorno real, mediante el uso de software y hardware que realizan reconocimiento espacial de patrones.
-
-<!-- la que entendemos como un continuo que abarca desde un entorno real hasta un entorno virtual puro (Paul Milgram et al., 1994). -->
 
 El objetivo de este estudio es describir el panorama actual de la AR, caracterizar las tecnologías disponibles y las posibles soluciones que se pueden lograr en función de cumplir con los requisitos del montaje teatral "Monga". Para ello se enumeran y describen las tecnologías y estrategias más comunes para desarrollar aplicaciones de AR. Adicionalmente, se revisan cuáles teléfonos móviles son capaces de implementar las tecnologías revisadas, y cuál soporte técnico se requiere para implementar la aplicación en escena.
 
