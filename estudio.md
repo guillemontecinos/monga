@@ -63,12 +63,6 @@ Es una plataforma open source de realidad mixta (MR), que permite generar experi
 
 Holokit consiste en un kit de visores de cartón en el que se monta un teléfono móvil, y un software de desarrollo basado en entornos de AR. Es compatible con ARKit y ARCore, por lo que tiene las mismas limitaciones de costo que dichas plataformas.
 
-#### Preguntas
-
-- ¿Cómo transpilar desde ARCore a ARKit?
-
-https://easyar.com/
-
 #### Cuadro comparativo SDK
 
 |Plataforma |Empresa  |Año  |$ USD|Android|iOS    |Unity|
