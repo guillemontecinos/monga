@@ -93,7 +93,11 @@ facilidad de instalacion
 
 ### AR en formato web
 
-#### [A-frame](https://aframe.io/)
+Existen dos formas de desarrollar aplicaciones de AR en la web: la primera consiste en ejecutar en HTML un script JavaScript que mediante la biblioteca AR.js realice odometría utilizando la cámara del dispositivo, mediante visión por computador (CV), para luego renderizar modelos 3D utilizando A-frame u otros entornos para crear modelos VR. La segunda consiste en utilizar las plataformas de VIO ARKit o ARCore para analizar los datos espaciales de AR, y ejecutar en un navegador adaptado a estas plataforas, ya sea WebARonARKit o WebARonARCore, un script que analice dicha información mediante la biblioteca three.ar.js para luego renderizar los modelos 3D utilizando three.js.
+
+#### AR web con odometría por CV
+
+##### [A-frame](https://aframe.io/)
 Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaciones de VR en la web basada en [three.js](https://threejs.org/). Es un entorno VR compatible con la mayoría de los [headsets](https://aframe.io/docs/0.8.0/introduction/) disponibles en el mercado, y puede ser utilizado para generar modelos 3D en aplicaciones de AR-web al incorporar la biblioteca [AR.js](https://aframe.io/blog/arjs/).
 
 Es compatible con las siguientes bibliotecas web (lista completa [aquí](https://aframe.io/docs/0.8.0/introduction/faq.html#does-a-frame-support-x-library-or-framework)):
@@ -101,29 +105,31 @@ Es compatible con las siguientes bibliotecas web (lista completa [aquí](https:/
 - [Preact](https://preactjs.com/)
 - [React](https://reactjs.org/)
 
-#### [AR.js](https://github.com/jeromeetienne/AR.js)
+##### [AR.js](https://github.com/jeromeetienne/AR.js)
 
 Es una biblioteca de JavaScript que permite realizar aplicaciones de AR en un entorno HTML. Se puede conectar con [A-frame](https://aframe.io/blog/arjs/) de modo que AR.js administre la información obtenida a través de la cámara del dispositivo, basándose en odometría mediante etiquetas, de modo de dar el marco espacial para que A-frame renderice los modelos 3D.
 
 Está basada en [three.js](https://threejs.org/) y [jsartoolkit5](https://github.com/artoolkit/jsartoolkit5) y pensada para correr aplicaciones AR-web desde cualquier teléfono móvil que posea webGL y webRTC, incluidos en la versión de Google Chrome 64 o superior. Un ejemplo de esta biblioteca es el [siguiente](https://github.com/jeromeetienne/AR.js#try-it-on-mobile).
 
-##### Ventajas
+###### Ventajas
 * AR.js corre en la mayoría de los teléfonos móviles
 * Al utilizar odometría mediante etiquetas utiliza menor cantidad de recursos
 * No requiere navegadores WebARonARCore o WebARonARKit
 
-##### Desventajas
+###### Desventajas
 * Requiere etiquetas para anclar el modelo al mundo real
 * No utiliza sensores espaciales del teléfono
 * Espacialización depende sólo de la cámara del equipo
 * Estabilidad en localización del modelo depende de la luminosidad del espacio
 
-#### [three.ar.js](https://github.com/google-ar/three.ar.js)
-Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones AR web. Requiere la [extensión](https://github.com/google-ar/three.ar.js/blob/master/webvr_ar_extension.md) de la API WebVR para smartphones, disponibles en los navegadores WebARonARKit and WebARonARCore.
+#### AR web con VIO (ARKit o ARCore)
 
-#### Web-based AR for Android
+##### Web-based AR for Android
 
 Para el desarrollo de aplicaciones AR web, Google ha desarrollado para Android - de manera no oficial aún - un navegador experimental llamado [WebARonARCore](https://github.com/google-ar/WebARonARCore). Al funcionar sobre AR Core de Google, este navegador exige los mismos requerimientos técnicos.
+
+##### [three.ar.js](https://github.com/google-ar/three.ar.js)
+Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones AR web. Requiere la [extensión](https://github.com/google-ar/three.ar.js/blob/master/webvr_ar_extension.md) de la API WebVR para smartphones, disponibles en los navegadores WebARonARKit and WebARonARCore.
 
 
 ## Requerimientos técnicos para montaje
