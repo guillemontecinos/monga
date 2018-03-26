@@ -85,9 +85,7 @@ Existen dos formas de desarrollar aplicaciones de AR en la web: la primera consi
 
 ##### [AR.js](https://github.com/jeromeetienne/AR.js)
 
-Es una biblioteca de JavaScript que permite realizar aplicaciones de AR en un entorno HTML. Se puede conectar con [A-frame](https://aframe.io/blog/arjs/) de modo que AR.js administre la información obtenida a través de la cámara del dispositivo, basándose en odometría mediante etiquetas, de modo de dar el marco espacial para que A-frame renderice los modelos 3D.
-
-Está basada en [three.js](https://threejs.org/) y [jsartoolkit5](https://github.com/artoolkit/jsartoolkit5) y pensada para correr aplicaciones AR-web desde cualquier teléfono móvil que posea webGL y webRTC, incluidos en la versión de Google Chrome 64 o superior. Un ejemplo de esta biblioteca es el [siguiente](https://github.com/jeromeetienne/AR.js#try-it-on-mobile).
+Es una biblioteca de JavaScript que permite realizar aplicaciones de AR en un entorno HTML mediante odometría basada en etiquetas. Está basada en [three.js](https://threejs.org/) y [jsartoolkit5](https://github.com/artoolkit/jsartoolkit5) y pensada para correr aplicaciones AR web desde cualquier teléfono móvil que posea webGL y webRTC, incluidos en la versión de Google Chrome 64 o superior. Un ejemplo de esta biblioteca es el [siguiente](https://github.com/jeromeetienne/AR.js#try-it-on-mobile).
 
 ###### Ventajas
 * AR.js corre en la mayoría de los teléfonos móviles
@@ -105,7 +103,7 @@ Está basada en [three.js](https://threejs.org/) y [jsartoolkit5](https://github
 ##### [A-frame](https://aframe.io/)
 Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaciones de VR en la web basada en [three.js](https://threejs.org/). Es un entorno VR compatible con la mayoría de los [headsets](https://aframe.io/docs/0.8.0/introduction/) disponibles en el mercado, y puede ser utilizado para generar modelos 3D en aplicaciones de AR-web al incorporar la biblioteca [AR.js](https://aframe.io/blog/arjs/).
 
-Es compatible con las siguientes bibliotecas web (lista completa [aquí](https://aframe.io/docs/0.8.0/introduction/faq.html#does-a-frame-support-x-library-or-framework)):
+[A-frame](https://aframe.io/blog/arjs/) puede ser conectada con AR.js de modo que esta última administre la información obtenida a través de la cámara del dispositivo, basándose en odometría mediante etiquetas, de modo de dar el marco espacial para que A-frame renderice los modelos 3D. Es compatible con las siguientes bibliotecas web (lista completa [aquí](https://aframe.io/docs/0.8.0/introduction/faq.html#does-a-frame-support-x-library-or-framework)):
 - [D3.js](https://d3js.org/)
 - [Preact](https://preactjs.com/)
 - [React](https://reactjs.org/)
