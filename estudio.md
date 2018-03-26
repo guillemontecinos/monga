@@ -124,6 +124,7 @@ Está basada en [three.js](https://threejs.org/) y [jsartoolkit5](https://github
 * Estabilidad en localización del modelo depende de la luminosidad del espacio
 
 #### AR web con VIO (ARKit o ARCore)
+![](https://github.com/guillemontecinos/monga/blob/master/assets/web_AR_VIO.jpg)
 
 ##### Web-based AR for Android
 
