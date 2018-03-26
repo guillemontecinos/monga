@@ -60,15 +60,18 @@ Fuente: [Vuforia Supported Versions](https://library.vuforia.com/articles/Soluti
 
 Es una plataforma open source de realidad mixta (MR), que permite generar experiencias inmersivas utilizando el teléfono móvil. La realidad mixta es una variante que intenta mezclar los mejores atributos de VR y AR, generalmente creando experiencias mediante el uso de visores VR en el que se puede ver el mundo real (mostrado mediante una cámara) sobre el cual se montan modelos de 3D para crear una experiencia MR.
 
-Holokit consiste en un kit de visores de cartón en el que se monta un teléfono móvil, y un software de desarrollo basado en entornos de AR. Es compatible con ARKit y ARCore, por lo que tiene las mismas limitaciones técnicas y de costo que dichas plataformas.
+Holokit consiste en un kit de visores de cartón en el que se monta un teléfono móvil, y un [SDK](https://github.com/holokit/holokitsdk) basado en entornos de AR. Es compatible con ARKit y ARCore, por lo que tiene las mismas limitaciones técnicas y de costo que dichas plataformas.
 
 #### Cuadro comparativo SDK
 
-|Plataforma |Empresa  |Año  |$ USD|Android|iOS    |Unity|
-|-----------|---------|-----|-----|-------|-------|-----|
-|AR Kit     |Apple    |2017 |0    |N/A    |11+    |Sí   |
-|AR Core    |Google   |2017 |0    |7.0+   |N/A    |Sí   |
-|Vuforia    |PTC      |2011 |499  |4.4+   |9+     |Sí   |
+|Plataforma |Empresa      |Año  |$ USD  |Android|iOS    |Unity|
+|-----------|-------------|-----|-------|-------|-------|-----|
+|AR Kit     |Apple        |2017 |0      |N/A    |11+    |Sí   |
+|AR Core    |Google       |2017 |0      |7.0+   |N/A    |Sí   |
+|Vuforia    |PTC          |2011 |499    |4.4+   |9+     |Sí   |
+|Holokit    |Amber Garage |2017 |30 (1) |7.0+   |11+    |Sí   |
+
+(1): Costo del visor de cartón, el código fuente del SDK es open source y está disponible en GitHub.
 
 Fuentes:
 - [Versión OS Android para AR Core](https://developers.google.com/ar/discover/)
@@ -167,6 +170,7 @@ TODO:
 * [How to create Augmented Reality posters with Unity & Vuforia, Charlie Gerard](https://medium.com/@devdevcharlie/how-to-create-augmented-reality-posters-with-unity-vuforia-ec80a82e6d51)
 * [How is ARCore better than ARKit?, Matt Miesnieks](https://medium.com/super-ventures-blog/how-is-arcore-better-than-arkit-5223e6b3e79d)
 * [Why is ARKit better than the alternatives?, Matt Miesnieks](https://medium.com/super-ventures-blog/why-is-arkit-better-than-the-alternatives-af8871889d6a)
+* [A $30 AR Headset?](https://medium.com/@Synced/sa-30-ar-headset-a0be5ed96299)
 
 ### Teléfonos
 
