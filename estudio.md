@@ -148,7 +148,7 @@ El montaje de la obra "Monga" considera el uso de 50 o más disposivos móviles 
 
 Como apreciamos, todos los equipos soportados por los sistemas VIO para AR utilizan el mismo protocolo WiFi para la transmisión de datos, por lo que no presentan diferencias entre ellas. Por este motivo, la transmisión de datos está limitada al router en uso.
 
-Los routers más nuevos del mercado funcionan con dos bandas, 2.4G y 5G. La banda 2.4G es más lenta y es capaz de alcanzar mayores distanncias. La banda 5G es más rápida, aunque posee un menor radio de cobertura. Se puede usar un sistema 5G con repetidores, aumentando así el radio de cobertura.
+Los routers más nuevos del mercado funcionan con dos bandas, 2.4G y 5G. La banda 2.4G es más lenta y es capaz de alcanzar mayores distancias. La banda 5G es más rápida, aunque posee un menor radio de cobertura. Se puede usar un sistema 5G con repetidores, aumentando así el radio de cobertura en el caso que sea necesario.
 
 Los routers de marca Linksys por defecto soportan hasta 50 aparatos. Además tienen software que permite darle prioridad a ciertos dispositivos. Tienen temporizador para poder reiniciarlos cada día, semana, o mes. Los routers Asus también poseen excelentes reseñas y hay profesionales para uso en una instalación como esta.
 
