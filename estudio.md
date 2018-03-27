@@ -89,7 +89,7 @@ El desarrollo de experiencias AR web con odometría por CV requiere la conexión
 
 TODO: Actualizar Imagen (Guille)
 
-![](https://github.com/guillemontecinos/monga/blob/master/assets/web_AR_CV.jpg)
+![](https://github.com/guillemontecinos/monga/blob/master/assets/AR_web_CV.png)
 
 ##### [AR.js](https://github.com/jeromeetienne/AR.js)
 
@@ -115,7 +115,7 @@ Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaci
 
 TODO: Actualizar Imagen (Guille)
 
-![](https://github.com/guillemontecinos/monga/blob/master/assets/web_AR_VIO.jpg)
+![](https://github.com/guillemontecinos/monga/blob/master/assets/AR_web_VIO.png)
 
 Una forma de desarrollar experiencias AR web más complejas es utilizando los navegadores web desarrollados por Google que permiten ejecutar aplicaciones AR sobre ARKit en iOS y ARCore en Android. Estos navegadores, llamados [WebARonARKit](https://github.com/google-ar/WebARonARKit) y [WebARonARCore](https://github.com/google-ar/WebARonARCore) respectivamente, han sido liberados como aplicaciones móviles experimentales para desarrollo. Al ser ejecutados sobre ARKit y ARCore, este navegador exige los mismos requerimientos técnicos.
 
