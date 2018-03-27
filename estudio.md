@@ -87,8 +87,6 @@ Existen dos formas de desarrollar aplicaciones de AR en la web: la primera consi
 
 El desarrollo de experiencias AR web con odometría por CV requiere la conexión de algunos componentes en el entorno HTML. Generalmente en estos casos la imagen es capturada mediante la cámara integrada del equipo a través de un objeto DOM de HTML. Luego esta imagen es analizada utilizando una biblioteca que realiza la odometría mediante algoritmos de visión por computación, com AR.js. Este tipo de complementos también crean objetos AR como escenas, sobre las cuales se renderizan modelos 3D utilizando plataformas como A-frame o simplemente three.js.
 
-TODO: Actualizar Imagen (Guille)
-
 ![](https://github.com/guillemontecinos/monga/blob/master/assets/AR_web_CV.png)
 
 ##### [AR.js](https://github.com/jeromeetienne/AR.js)
@@ -112,8 +110,6 @@ Es un entorno HTML diseñado originalmente por Mozilla para desarrollar aplicaci
 [A-frame](https://aframe.io/blog/arjs/) puede ser conectada con AR.js de modo que esta última administre la información obtenida a través de la cámara del dispositivo, basándose en odometría mediante etiquetas, de modo de dar el marco espacial para que A-frame renderice los modelos 3D, como en siguiente [ejemplo](https://aframe.io/blog/arjs/). Es compatible con bibliotecas de desarrollo web como [D3.js](https://d3js.org/) y [React](https://reactjs.org/).
 
 #### AR web con VIO (ARKit o ARCore)
-
-TODO: Actualizar Imagen (Guille)
 
 ![](https://github.com/guillemontecinos/monga/blob/master/assets/AR_web_VIO.png)
 
