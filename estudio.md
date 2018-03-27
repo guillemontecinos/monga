@@ -1,13 +1,13 @@
 # Informe Técnico: Estado del arte de Realidad Aumentada (AR) en teléfonos móviles para  montajes teatrales
 
 *Por Aarón Montoya-Moraga y Guillermo Montecinos*  
-*27 de marzo de 2018*
+*26 de marzo de 2018*
 
 ## Introducción  
 
 El siguiente informe técnico aborda el estado del arte de Realidad Aumentada (AR, por su sigla en inglés).
 
-Por realidad aumentada se entiende una visión en vivo del mundo físico, cuyos elementos son aumentados por información generada por computador. Permite la incorporación de información digital - imágenes, datos, modelos 3D, sonido, entre otros - sobre un entorno real, mediante el uso de software y hardware que realizan reconocimiento espacial de patrones.
+Por Realidad Aumentada se entiende una visión en vivo del mundo físico, cuyos elementos son aumentados por información generada por computador. Permite la incorporación de información digital - imágenes, datos, modelos 3D, sonido, entre otros - sobre un entorno real, mediante el uso de software y hardware que realizan reconocimiento espacial de patrones.
 
 El objetivo de este estudio es describir el panorama actual de la AR, caracterizar las tecnologías disponibles y las posibles soluciones que se pueden lograr en función de cumplir con los requisitos del montaje teatral "Monga". Para ello se enumeran y describen las tecnologías y estrategias más comunes para desarrollar aplicaciones de AR. Adicionalmente, se revisan cuáles teléfonos móviles son capaces de implementar las tecnologías revisadas, y cuál soporte técnico se requiere para implementar la aplicación en escena.
 
@@ -127,7 +127,7 @@ Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones 
 
 ## Requerimientos técnicos para montaje
 
-El montaje de la obra "Monga" considera el uso de 50 o más disposivos móviles conectados a una red WiFi para la descarga de una aplicación móvil o la descarga de datos a través de una app o el navegador web. La siguiente tabla resume los teléfonos móviles soportados por las tecnologías ARKit y ARCore.
+El montaje de la obra "Monga" considera el uso de 50 o más disposivos móviles conectados a una red WiFi para la descarga de una aplicación móvil o la descarga de datos a través de una aplicación o un navegador web. La siguiente tabla resume los teléfonos móviles soportados por las tecnologías Apple ARKit y Google ARCore.
 
 |Marca  |Modelo        |Fecha|$ USD|OS                |WiFi              |
 |-------|--------------|-----|-----|------------------|------------------|
@@ -146,11 +146,11 @@ El montaje de la obra "Monga" considera el uso de 50 o más disposivos móviles 
 |Samsung|Galaxy S9     |2018 |719  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 |Samsung|Galaxy S9+    |2018 |839  |Android Oreo 8.0  |802.11 a/b/g/n/ac |
 
-Como apreciamos, todos los equipos soportados por los sistemas VIO para AR utilizan el mismo protocolo WiFi para la transmisión de datos.
+Como apreciamos, todos los equipos soportados por los sistemas VIO para AR utilizan el mismo protocolo WiFi para la transmisión de datos, por lo que no presentan diferencias entre ellas. Por este motivo, la transmisión de datos está limitada al router en uso.
 
-TODO: (Aarón)
+Los routers más nuevos del mercado funcionan con dos bandas, 2.4G y 5G. La banda 2.4G es más lenta y es capaz de alcanzar mayores distanncias. La banda 5G es más rápida, aunque posee un menor radio de cobertura. Se puede usar un sistema 5G con repetidores, aumentando así el radio de cobertura.
 
-* Ahora que sabemos que todos los celulares ocupan el mismo protocolo, debemos diseñar la red según las necesidades. Este punto se relaciona con el punto de las conclusiones.
+Los routers de marca Linksys por defecto soportan hasta 50 aparatos. Además tienen software que permite darle prioridad a ciertos dispositivos. Tienen temporizador para poder reiniciarlos cada día, semana, o mes. Los routers Asus también poseen excelentes reseñas y hay profesionales para uso en una instalación como esta.
 
 ## Conclusiones
 
@@ -160,11 +160,13 @@ TODO: (Aarón)
 
 * Unity es una buena opción, ya que posee integración con Google ARCore y con Apple ArKit, aunque está mejor soportado para Google ARCore.
 
-TODO: (Aarón)
+* Si desarrollamos la aplicación con Apple ARKit o Google ARCore, solamente podremos correrla en celulares Apple con iOs 11 o Android Oreo, respectivamente.
 
-* Análisis de condiciones de desarrollo: si desarrollamos app sólo en iOS tenemos acceso limitado a celulares iOS 11+, si usamos ARCore también, pero podemos pedir auspicio a Samsung. Si utilizamos webAR con AR.js tenemos limitación en la performance pero corre en todos los celulares y mediante etiquetas podemos desplegar información.
+* Si utilizamos un sistema webAR con AR.js tenemos limitaciones en rendimiento, pero podemos correr la aplicación en cualquier celular, además permite hacer una aplicación que responda a etiquetas, la que es más fácil de implementar.
 
-* Diseño de red router para distintos casos: descarga de app en vivo, descarga previa, app web, etc. Diseñar para 50 espectadores.
+* En cuanto a internet, todos los celulares poseen la misma tecnología y pueden usar tanto bandas 2.4G como 5G. La banda 2.4G es más lenta y alcanza distancias más grandes. La banda 5G es más rápida pero funciona a menor distancia, aunque se pueden instalar repetidores.
+
+* Se debe usar un router MIMO (multiple input multiple output), que permite que cada conexión no haga más lenta la conexión de los otros dispositivos. Se recomiendan las marcas Asus y Linksys que son las más avanzadas del mercado.
 
 ## Referencias
 
@@ -206,3 +208,9 @@ TODO: (Aarón)
 * [Samsung Galaxy S8](http://www.samsung.com/global/galaxy/galaxy-s8/)
 * [Samsung Galaxy S8 specs](http://www.samsung.com/global/galaxy/galaxy-s8/specs/)
 * [Samsung Galaxy S8 wiki](https://en.wikipedia.org/wiki/Samsung_Galaxy_S8)
+
+### Routers
+
+* [Apple Airport Extreme](https://www.apple.com/shop/product/ME918LL/A/airport-extreme?fnode=58)
+* [Linksys Velop Whole Home Mesh Wi-Fi](https://www.apple.com/shop/product/HLX42LL/A/linksys-velop-whole-home-mesh-wi-fi-system-3-pack?fnode=58)
+* [Linksys - 10 consejos](https://www.linksys.com/cl/tips-for-setting-up-your-router/)
