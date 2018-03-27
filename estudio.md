@@ -150,7 +150,7 @@ Como apreciamos, todos los equipos soportados por los sistemas VIO para AR utili
 
 Los routers más nuevos del mercado funcionan con dos bandas, 2.4G y 5G. La banda 2.4G es más lenta y es capaz de alcanzar mayores distanncias. La banda 5G es más rápida, aunque posee un menor radio de cobertura. Se puede usar un sistema 5G con repetidores, aumentando así el radio de cobertura.
 
-* Ahora que sabemos que todos los celulares ocupan el mismo protocolo, debemos diseñar la red según las necesidades. Este punto se relaciona con el punto de las conclusiones.
+Los routers de marca Linksys por defecto soportan hasta 50 aparatos. Además tienen software que permite darle prioridad a ciertos dispositivos. Tienen temporizador para poder reiniciarlos cada día, semana, o mes. Los routers Asus también poseen excelentes reseñas y hay profesionales para uso en una instalación como esta.
 
 ## Conclusiones
 
@@ -166,7 +166,7 @@ Los routers más nuevos del mercado funcionan con dos bandas, 2.4G y 5G. La band
 
 * En cuanto a internet, todos los celulares poseen la misma tecnología y pueden usar tanto bandas 2.4G como 5G. La banda 2.4G es más lenta y alcanza distancias más grandes. La banda 5G es más rápida pero funciona a menor distancia, aunque se pueden instalar repetidores.
 
-* Diseño de red router para distintos casos: descarga de app en vivo, descarga previa, app web, etc. Diseñar para 50 espectadores.
+* Se debe usar un router MIMO (multiple input multiple output), que permite que cada conexión no haga más lenta la conexión de los otros dispositivos. Se recomiendan las marcas Asus y Linksys que son las más avanzadas del mercado.
 
 ## Referencias
 
@@ -213,3 +213,4 @@ Los routers más nuevos del mercado funcionan con dos bandas, 2.4G y 5G. La band
 
 * [Apple Airport Extreme](https://www.apple.com/shop/product/ME918LL/A/airport-extreme?fnode=58)
 * [Linksys Velop Whole Home Mesh Wi-Fi](https://www.apple.com/shop/product/HLX42LL/A/linksys-velop-whole-home-mesh-wi-fi-system-3-pack?fnode=58)
+* [Linksys - 10 consejos](https://www.linksys.com/cl/tips-for-setting-up-your-router/)
