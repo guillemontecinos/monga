@@ -10,7 +10,8 @@
 
 ## Web
 * [tracking.js](https://trackingjs.com)
-* [face-recognition.js](https://github.com/justadudewhohacks/face-recognition.js)
+* [face-recognition.js](https://github.com/justadudewhohacks/face-recognition.js), requiere Node.js
+* [Node.js +  face-recognition.js](https://medium.com/@muehler.v/node-js-face-recognition-js-simple-and-robust-face-recognition-using-deep-learning-ea5ba8e852)
 
 ### Otros ejemplos
 * [AIND-CV-Facial-Keypoints](https://github.com/jrios6/AIND-CV-Facial-Keypoints)
