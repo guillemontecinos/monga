@@ -1,6 +1,6 @@
 # Reconocimiento facial para aplicación AR
 
-## [Open V](https://opencv.org/about.html)
+## [OpenCV](https://opencv.org/about.html)
 * [Face detection in OpenCV](https://docs.opencv.org/trunk/df/d6c/tutorial_js_face_detection_camera.html)
 * [OpenCV para Android](https://opencv.org/platforms/android/)
 * [OpenCV para iOS](https://medium.com/@borisohayon/ios-opencv-and-swift-1ee3e3a5735b)
