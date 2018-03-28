@@ -10,6 +10,7 @@
 
 ## Web
 * [tracking.js](https://trackingjs.com)
+* [face-recognition.js](https://github.com/justadudewhohacks/face-recognition.js)
 
 ### Otros ejemplos
 * [AIND-CV-Facial-Keypoints](https://github.com/jrios6/AIND-CV-Facial-Keypoints)
