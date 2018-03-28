@@ -8,5 +8,8 @@
 ## ARKit
 * [Face tracking w/ARKit](https://developer.apple.com/videos/play/fall2017/601/)
 
+## Web
+* [tracking.js](https://trackingjs.com)
+
 ### Otros ejemplos
 * [AIND-CV-Facial-Keypoints](https://github.com/jrios6/AIND-CV-Facial-Keypoints)
