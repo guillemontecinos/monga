@@ -150,18 +150,23 @@ Los routers de marca Linksys por defecto soportan hasta 50 aparatos. Además tie
 
 ## Conclusiones
 
-* Es más fácil, barato y rápido programar una aplicación que corra exclusivamente en Google Android o solamente en Apple iOs.
+En este informe técnico se han descrito las tecnologías disponibles para desarrollar aplicaciones de Realidad Aumentada en dispositivos móviles que corran localmente en el equipo y que puedan ser ejecutadas en un navegador web. Estas aplicaciones pueden desarrollarse para ser ejecutadas localmente sobre los entornos de Odomoetría Inercial Visual (VIO) ARCore para Google Android o ARKit para Apple iOS, las que deben ser programadas en el código fuente de cada OS, Java y Swift, respectivamente. En este sentido se concluye lo siguiente:
 
-* Es más fácil y rápido usar etiquetas en el mundo físico, que sean detectadas por el teléfono, que programar con el enfoque VIO.
+* Es conveniente para la creación de experiencias AR complejas desarrollar dichas aplicaciones en las plataformas AR específicas ARCore o ArKit, desarrolladas para cada sistema operativo.
+* Es más eficiente programar una aplicación que corra exclusivamente en Google Android o en Apple iOs, ya que la transpilación de una plataforma a otra y el desarrollo en paralelo en ambos OS son opciones poco viables.
+* En el caso desarrollar la aplicación "No apagues la luz" con Apple ARKit o Google ARCore, solamente podremos correrla en celulares Apple con iOs 11 o Android Oreo, respectivamente.
+* Es más fácil y rápido desarrollar aplicaciones AR basadas en odometría mediante seguimiento de etiquetas que programar con el enfoque VIO. Vuforia es la plataforma más utilizada en el mercado para desarrollar este tipo de experiencias.
+* Si bien las aplicaciones AR basadas en odometría mediante etiquetas incurre en un menor uso de recursos del equipo y es soportada por una gran cantidad de dispositivos, la calidad y complejidad de la experiencia AR lograda es mucho menor que en el caso de las aplicaciones desarrolladas sobre sistemas VIO.
+* Para todos los casos anteriores, Unity es una buena opción para el desarrollo de modelos 3D y entornos VR, ya que posee integración con Google ARCore, con Apple ArKit y Vuforia, aunque está mejor soportado para Google ARCore.
 
-* Unity es una buena opción, ya que posee integración con Google ARCore y con Apple ArKit, aunque está mejor soportado para Google ARCore.
+En el caso en que las aplicaciones sean diseñadas para ejecutarse desde un navegador web, pueden ser desarrolladas utilizando como soporte odométrico la biblioteca AR.js, la que alimenta plugins generadores de modelos 3D, como A-frame (basada en three.js) o three.js. AR.js utiliza odometría mediante seguimiento de etiquetas a través de visión por computador. Por otro lado, se pueden desarrollar aplicaciones que trabajen sobre los entornos VIO ARCore y ARKit, las que requieren la existencia de los navegadores experimentales para AR desarrollados por Google WebARonARKit para ARKit y WebARonARCore para ARCore. En este sentido se concluye que:
 
-* Si desarrollamos la aplicación con Apple ARKit o Google ARCore, solamente podremos correrla en celulares Apple con iOs 11 o Android Oreo, respectivamente.
+* El uso del sistema webAR con AR.js tiene limitaciones en cuanto a la complejidad de la experiencia AR que se pueda lograr, pero permite correr la aplicación en cualquier celular mediante odometría por seguimiento de etiquetas, la que es más fácil de implementar.
+* El desarrollo de experiencias AR web basadas en los sistemas VIO puede lograr resultados más elaborados pero con la limitación de que, por un lado requiere los mismos OS que ARCore (Android 7.0+) y ArKit (iOS 11.0+), y por otro lado requiere la existencia de los navegadores WebARonARCore o WebARonARKit respectivamente, aplicaciones que no han sido liberadas oficialmente por encontrarse únicamente disponibles para desarrollo.
 
-* Si utilizamos un sistema webAR con AR.js tenemos limitaciones en rendimiento, pero podemos correr la aplicación en cualquier celular, además permite hacer una aplicación que responda a etiquetas, la que es más fácil de implementar.
 
+Finalmente todos los equipos soportados por ARCore y ArKit utilizan el mismo protocolo WiFi, por lo que la problemática de dar conexión a 50 o más equipos durante una función de "Monga" se reduce a la velocidad de transferencia, la que depende de la banda utilizada: 2.4G o 5G. Respecto de esto se concluye que:
 * En cuanto a internet, todos los celulares poseen la misma tecnología y pueden usar tanto bandas 2.4G como 5G. La banda 2.4G es más lenta y alcanza distancias más grandes. La banda 5G es más rápida pero funciona a menor distancia, aunque se pueden instalar repetidores.
-
 * Se debe usar un router MIMO (multiple input multiple output), que permite que cada conexión no haga más lenta la conexión de los otros dispositivos. Se recomiendan las marcas Asus y Linksys que son las más avanzadas del mercado.
 
 ## Referencias
