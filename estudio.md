@@ -44,7 +44,7 @@ ARCore cuenta con un motor que analiza los datos espaciales mediante un sistema 
 
 ##### [Vuforia](https://www.vuforia.com/)
 
-Es la plataforma de desarrollo de experiencias AR más utilizada en el mercado. Permite desarrollar aplicaciones compatibles con los sistemas iOS y Android, basado en la odomoetría por reconocimiento de patrones - etiquetas - a través de la cámara del dispositivo. Es compatible con Unity para desarrollo de modelos 3D, y con ARKit y ARCore. Un ejemplo de aplicacin AR realizada con Vuforia y Unity puede encontrarse [aquí](https://www.youtube.com/watch?v=jAmU0L_wfV0).
+Es la plataforma de desarrollo de experiencias AR más utilizada en el mercado. Permite desarrollar aplicaciones compatibles con los sistemas iOS y Android, basado en la odometría por reconocimiento de patrones - etiquetas - a través de la cámara del dispositivo. Es compatible con Unity para desarrollo de modelos 3D, y con ARKit y ARCore. Un ejemplo de aplicación AR realizada con Vuforia y Unity puede encontrarse [aquí](https://www.youtube.com/watch?v=jAmU0L_wfV0).
 
 La licencia estándar de Vuforia tiene un costo de $499.00, pero existe una licencia especial gratuita para desarrolladores que trabajan con [Unity](https://unity3d.com/).
 
@@ -81,7 +81,7 @@ Fuentes:
 
 ### AR en formato web
 
-Existen dos formas de desarrollar aplicaciones de AR en la web: la primera consiste en ejecutar en HTML un script JavaScript que mediante la biblioteca AR.js realice odometría utilizando la cámara del dispositivo, mediante visión por computador (CV), para luego renderizar modelos 3D utilizando A-frame u otros entornos para crear modelos VR. La segunda consiste en utilizar las plataformas VIO ARKit o ARCore para analizar los datos espaciales, y ejecutar en un navegador adaptado a estas plataforas, ya sea WebARonARKit o WebARonARCore, un script que analice dicha información mediante la biblioteca three.ar.js para luego renderizar los modelos 3D utilizando three.js.
+Existen dos formas de desarrollar aplicaciones de AR en la web: la primera consiste en ejecutar en HTML un script JavaScript que mediante la biblioteca AR.js realice odometría utilizando la cámara del dispositivo, mediante visión por computador (CV), para luego renderizar modelos 3D utilizando A-frame u otros entornos para crear modelos VR. La segunda consiste en utilizar las plataformas VIO ARKit o ARCore para analizar los datos espaciales, y ejecutar en un navegador adaptado a estas plataformas, ya sea WebARonARKit o WebARonARCore, un script que analice dicha información mediante la biblioteca three.ar.js para luego renderizar los modelos 3D utilizando three.js.
 
 #### AR web con odometría por CV
 
@@ -123,7 +123,7 @@ Es una biblioteca de JavaScript desarrollada por Google para crear aplicaciones 
 
 ## Requerimientos técnicos para montaje
 
-El montaje de la obra "Monga" considera el uso de 50 o más disposivos móviles conectados a una red WiFi para la descarga de una aplicación móvil o la descarga de datos a través de una aplicación o un navegador web. La siguiente tabla resume los teléfonos móviles soportados por las tecnologías Apple ARKit y Google ARCore.
+El montaje de la obra "Monga" considera el uso de 50 o más dispositivos móviles conectados a una red WiFi para la descarga de una aplicación móvil o la descarga de datos a través de una aplicación o un navegador web. La siguiente tabla resume los teléfonos móviles soportados por las tecnologías Apple ARKit y Google ARCore.
 
 |Marca  |Modelo        |Fecha|$ USD|OS                |WiFi              |
 |-------|--------------|-----|-----|------------------|------------------|
@@ -150,11 +150,11 @@ Los routers de marca Linksys por defecto soportan hasta 50 aparatos. Además tie
 
 ## Conclusiones
 
-En este informe técnico se han descrito las tecnologías disponibles para el desarrollo aplicaciones de Realidad Aumentada en dispositivos móviles que corran localmente en el equipo y aplicaciones que puedan ser ejecutadas en un navegador web. Estas aplicaciones pueden desarrollarse para ser ejecutadas localmente sobre los entornos de Odomoetría Inercial Visual (VIO) ARCore para Google Android o ARKit para Apple iOS, las que deben ser programadas en el código fuente de cada OS, Java o Swift, respectivamente. En este sentido se concluye que:
+En este informe técnico se han descrito las tecnologías disponibles para el desarrollo aplicaciones de Realidad Aumentada en dispositivos móviles que corran localmente en el equipo y aplicaciones que puedan ser ejecutadas en un navegador web. Estas aplicaciones pueden desarrollarse para ser ejecutadas localmente sobre los entornos de Odometría Inercial Visual (VIO) ARCore para Google Android o ARKit para Apple iOS, las que deben ser programadas en el código fuente de cada OS, Java o Swift, respectivamente. En este sentido se concluye que:
 
 * Es conveniente para la creación de experiencias AR complejas desarrollar dichas aplicaciones en las plataformas AR específicas ARCore o ARKit, desarrolladas para cada sistema operativo.
 * Es más eficiente programar una aplicación que corra exclusivamente en Google Android o en Apple iOs, ya que la transpilación de una plataforma a otra y el desarrollo en paralelo en ambos OS son opciones poco viables.
-* En el caso desarrollar la aplicación "No apagues la luz" con Apple ARKit o Google ARCore, solamente podremos correrla en celulares Apple con iOs 11 o Android Oreo, respectivamente.
+* En el caso desarrollar la aplicación "No apagues la luz" con Apple ARKit o Google ARCore, solamente podrá ser ejecutada en celulares Apple con iOs 11 o Android Oreo, respectivamente.
 * Es más fácil y rápido desarrollar aplicaciones AR basadas en odometría mediante seguimiento de etiquetas que programar con el enfoque VIO. Vuforia es la plataforma más utilizada en el mercado para desarrollar este tipo de experiencias.
 * Si bien las aplicaciones AR basadas en odometría mediante etiquetas incurre en un menor uso de recursos del equipo y es soportada por una gran cantidad de dispositivos, la calidad y complejidad de la experiencia AR lograda es mucho menor que en el caso de las aplicaciones desarrolladas sobre sistemas VIO.
 * Para todos los casos anteriores, Unity es una buena opción para el desarrollo de modelos 3D y entornos VR, ya que posee integración con Google ARCore, con Apple ArKit y Vuforia, aunque está mejor soportado para Google ARCore.
