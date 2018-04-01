@@ -169,6 +169,24 @@ Finalmente todos los equipos soportados por ARCore y ArKit utilizan el mismo pro
 * En cuanto a internet, todos los celulares poseen la misma tecnología y pueden usar tanto bandas 2.4G como 5G. La banda 2.4G es más lenta y alcanza distancias más grandes. La banda 5G es más rápida pero funciona a menor distancia, aunque se pueden instalar repetidores.
 * Se debe usar un router MIMO (multiple input multiple output), que permite que cada conexión no haga más lenta la conexión de los otros dispositivos. Se recomiendan las marcas Asus y Linksys que son las más avanzadas del mercado.
 
+## Apéndice: Reconocimiento facial para aplicaciones AR
+
+## [OpenCV](https://opencv.org/about.html)
+* [Face detection in OpenCV](https://docs.opencv.org/trunk/df/d6c/tutorial_js_face_detection_camera.html)
+* [OpenCV para Android](https://opencv.org/platforms/android/)
+* [OpenCV para iOS](https://medium.com/@borisohayon/ios-opencv-and-swift-1ee3e3a5735b)
+
+## ARKit
+* [Face tracking w/ARKit](https://developer.apple.com/videos/play/fall2017/601/)
+
+## Web
+* [tracking.js](https://trackingjs.com)
+* [face-recognition.js](https://github.com/justadudewhohacks/face-recognition.js), requiere Node.js
+* [Node.js +  face-recognition.js](https://medium.com/@muehler.v/node-js-face-recognition-js-simple-and-robust-face-recognition-using-deep-learning-ea5ba8e852)
+
+### Otros ejemplos
+* [AIND-CV-Facial-Keypoints](https://github.com/jrios6/AIND-CV-Facial-Keypoints)
+
 ## Referencias
 
 * [David Bowie in Three Dimensions - New York Times](https://www.nytimes.com/interactive/2018/03/20/arts/design/bowie-costumes-ar-3d-ul.html): experiencia AR hecha con Apple ARKit.
